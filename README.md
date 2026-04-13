@@ -1,4 +1,6 @@
 # AI企业服务
+<img width="2530" height="1278" alt="3a3d01f97e74f755784a4364a9c3c5de" src="https://github.com/user-attachments/assets/9a505e1c-507a-41e4-894a-af56a7dbef2f" />
+
 
 这是一个基于 `Spring Boot + Redis + LangChain4j + Netty + Vue 3` 的企业知识库问答示例项目。
 
@@ -264,4 +266,5 @@ npm run dev
 - 方法级阅读地图
 - 文件 + 行号索引
 - 上传 / 检索 / WebSocket 时序图
+
 
