@@ -1,0 +1,2458 @@
+[2026-04-13 17:01:05.622] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=ai_service:embedding:，dimension=1024
+											——line:98(file:OpenAiConfig.java)
+[2026-04-13 17:01:05.659] 信息  [向量存储初始化] 实际 EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:134(file:OpenAiConfig.java)
+[2026-04-13 17:01:57.890] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=ai_service:embedding:，dimension=1024
+											——line:98(file:OpenAiConfig.java)
+[2026-04-13 17:01:57.932] 信息  [向量存储初始化] 实际 EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:134(file:OpenAiConfig.java)
+[2026-04-13 17:04:35.048] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:59(file:DocumentService.java)
+[2026-04-13 17:04:35.048] 信息  [知识库上传] 当前 EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:61(file:DocumentService.java)
+[2026-04-13 17:04:35.050] 信息  [知识库上传] 文件字节大小: 21208
+											——line:65(file:DocumentService.java)
+[2026-04-13 17:04:35.050] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:126(file:DocumentService.java)
+[2026-04-13 17:04:35.751] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:71(file:DocumentService.java)
+[2026-04-13 17:04:35.752] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:81(file:DocumentService.java)
+[2026-04-13 17:04:47.323] 信息  [向量写入] 第 1 片开始写入向量存储
+											——line:85(file:DocumentService.java)
+[2026-04-13 17:04:47.342] 信息  [向量写入] 第 1 片写入完成
+											——line:89(file:DocumentService.java)
+[2026-04-13 17:04:47.347] 信息  [向量自检] 第 1 片写后即查命中数: 0
+											——line:93(file:DocumentService.java)
+[2026-04-13 17:04:47.347] 信息  [知识库切片] 第 2 片长度: 689，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长
+											——line:81(file:DocumentService.java)
+[2026-04-13 17:04:47.479] 信息  [向量写入] 第 2 片开始写入向量存储
+											——line:85(file:DocumentService.java)
+[2026-04-13 17:04:47.482] 信息  [向量写入] 第 2 片写入完成
+											——line:89(file:DocumentService.java)
+[2026-04-13 17:04:47.482] 信息  [向量自检] 第 2 片写后即查命中数: 0
+											——line:93(file:DocumentService.java)
+[2026-04-13 17:04:47.483] 信息  [知识库切片] 第 3 片长度: 603，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）
+											——line:81(file:DocumentService.java)
+[2026-04-13 17:04:47.634] 信息  [向量写入] 第 3 片开始写入向量存储
+											——line:85(file:DocumentService.java)
+[2026-04-13 17:04:47.637] 信息  [向量写入] 第 3 片写入完成
+											——line:89(file:DocumentService.java)
+[2026-04-13 17:04:47.637] 信息  [向量自检] 第 3 片写后即查命中数: 0
+											——line:93(file:DocumentService.java)
+[2026-04-13 17:04:47.638] 信息  [知识库切片] 第 4 片长度: 101，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:81(file:DocumentService.java)
+[2026-04-13 17:04:47.777] 信息  [向量写入] 第 4 片开始写入向量存储
+											——line:85(file:DocumentService.java)
+[2026-04-13 17:04:47.780] 信息  [向量写入] 第 4 片写入完成
+											——line:89(file:DocumentService.java)
+[2026-04-13 17:04:47.780] 信息  [向量自检] 第 4 片写后即查命中数: 0
+											——line:93(file:DocumentService.java)
+[2026-04-13 17:04:47.784] 信息  [知识库上传] 文件已落盘，路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\6f90b76a-dd05-43d8-89cf-cdc93901d936_公司录.docx
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:04:47.784] 信息  [知识库上传] 文件处理完成: 公司录.docx，总片段数: 4
+											——line:110(file:DocumentService.java)
+[2026-04-13 17:05:15.035] 信息  [RAG问答] 开始流式问答，问题: 查一下 普通员工转正后月薪总额是多少
+											——line:79(file:RagService.java)
+[2026-04-13 17:05:15.035] 信息  [RAG检索] 开始查询知识库，问题: 查一下 普通员工转正后月薪总额是多少
+											——line:115(file:RagService.java)
+[2026-04-13 17:05:15.036] 信息  [RAG检索] 当前 EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:117(file:RagService.java)
+[2026-04-13 17:05:15.036] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:125(file:RagService.java)
+[2026-04-13 17:05:15.037] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\6f90b76a-dd05-43d8-89cf-cdc93901d936_公司录.docx
+											——line:131(file:RagService.java)
+[2026-04-13 17:05:15.307] 信息  [RAG检索] 问题向量化完成，开始查相似片段
+											——line:142(file:RagService.java)
+[2026-04-13 17:05:15.309] 信息  [RAG检索] 命中片段数: 0
+											——line:146(file:RagService.java)
+[2026-04-13 17:05:15.309] 警告  [RAG检索] 当前没有命中任何知识库片段
+											——line:166(file:RagService.java)
+[2026-04-13 17:05:15.311] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。当前知识库中还没有可用的检索片段。  [问题] 查一下 普通员工转正后月薪总额是多少  请使用中文回答，并明确说明当前回答未引用到知识库内容。
+											——line:83(file:RagService.java)
+[2026-04-13 17:05:27.724] 信息  [RAG问答] 收到流式分段: 根据
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:27.914] 信息  [RAG问答] 收到流式分段: 当前
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.160] 信息  [RAG问答] 收到流式分段: 查询
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.161] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.161] 信息  [RAG问答] 收到流式分段: 知识
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.162] 信息  [RAG问答] 收到流式分段: 库
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.163] 信息  [RAG问答] 收到流式分段: 中
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.183] 信息  [RAG问答] 收到流式分段: 尚未
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.184] 信息  [RAG问答] 收到流式分段: 收录
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.265] 信息  [RAG问答] 收到流式分段: 相关的
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.338] 信息  [RAG问答] 收到流式分段: 检索
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.339] 信息  [RAG问答] 收到流式分段: 片段
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.411] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.411] 信息  [RAG问答] 收到流式分段: 因此
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.491] 信息  [RAG问答] 收到流式分段: 无法
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.492] 信息  [RAG问答] 收到流式分段: 提供
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.697] 信息  [RAG问答] 收到流式分段: 关于
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.697] 信息  [RAG问答] 收到流式分段: “
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.699] 信息  [RAG问答] 收到流式分段: 普通
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.700] 信息  [RAG问答] 收到流式分段: 员工
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.714] 信息  [RAG问答] 收到流式分段: 转
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.715] 信息  [RAG问答] 收到流式分段: 正
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.788] 信息  [RAG问答] 收到流式分段: 后
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.789] 信息  [RAG问答] 收到流式分段: 月
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.866] 信息  [RAG问答] 收到流式分段: 薪
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.867] 信息  [RAG问答] 收到流式分段: 总额
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.957] 信息  [RAG问答] 收到流式分段: ”
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:28.958] 信息  [RAG问答] 收到流式分段: 的具体
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.028] 信息  [RAG问答] 收到流式分段: 信息
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.029] 信息  [RAG问答] 收到流式分段: 。
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.086] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.087] 信息  [RAG问答] 收到流式分段: 建议
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.163] 信息  [RAG问答] 收到流式分段: 您
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.164] 信息  [RAG问答] 收到流式分段: ：
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.271] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.272] 信息  [RAG问答] 收到流式分段: 1
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.313] 信息  [RAG问答] 收到流式分段: .
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.314] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.388] 信息  [RAG问答] 收到流式分段: 联系
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.459] 信息  [RAG问答] 收到流式分段: 人力资源
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.633] 信息  [RAG问答] 收到流式分段: 部门
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.634] 信息  [RAG问答] 收到流式分段: 或
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.634] 信息  [RAG问答] 收到流式分段: 查阅
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.634] 信息  [RAG问答] 收到流式分段: 公司
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.681] 信息  [RAG问答] 收到流式分段: 内部
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.682] 信息  [RAG问答] 收到流式分段: 薪酬
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.834] 信息  [RAG问答] 收到流式分段: 制度
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.835] 信息  [RAG问答] 收到流式分段: 文件
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.835] 信息  [RAG问答] 收到流式分段: ；
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.836] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.906] 信息  [RAG问答] 收到流式分段: 2
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.906] 信息  [RAG问答] 收到流式分段: .
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.981] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:29.981] 信息  [RAG问答] 收到流式分段: 确认
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.117] 信息  [RAG问答] 收到流式分段: 是否有
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.131] 信息  [RAG问答] 收到流式分段: 针对
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.131] 信息  [RAG问答] 收到流式分段: 转
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.238] 信息  [RAG问答] 收到流式分段: 正
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.238] 信息  [RAG问答] 收到流式分段: 员工的
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.280] 信息  [RAG问答] 收到流式分段: 薪酬
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.353] 信息  [RAG问答] 收到流式分段: 标准
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.354] 信息  [RAG问答] 收到流式分段: 或
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.426] 信息  [RAG问答] 收到流式分段: 政策
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.426] 信息  [RAG问答] 收到流式分段: 说明
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.564] 信息  [RAG问答] 收到流式分段: ；
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.565] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.574] 信息  [RAG问答] 收到流式分段: 3
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.574] 信息  [RAG问答] 收到流式分段: .
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.650] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.651] 信息  [RAG问答] 收到流式分段: 若
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.721] 信息  [RAG问答] 收到流式分段: 后续
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:30.796] 信息  [RAG问答] 收到流式分段: 需要
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.052] 信息  [RAG问答] 收到流式分段: 将
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.055] 信息  [RAG问答] 收到流式分段: 此类
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.055] 信息  [RAG问答] 收到流式分段: 信息
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.055] 信息  [RAG问答] 收到流式分段: 纳入
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.106] 信息  [RAG问答] 收到流式分段: 知识
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.107] 信息  [RAG问答] 收到流式分段: 库
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.176] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.176] 信息  [RAG问答] 收到流式分段: 可
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.249] 信息  [RAG问答] 收到流式分段: 补充
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.329] 信息  [RAG问答] 收到流式分段: 相关
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.330] 信息  [RAG问答] 收到流式分段: 文档
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.403] 信息  [RAG问答] 收到流式分段: 以便
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.403] 信息  [RAG问答] 收到流式分段: 未来
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.638] 信息  [RAG问答] 收到流式分段: 检索
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.638] 信息  [RAG问答] 收到流式分段: 。
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.641] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.641] 信息  [RAG问答] 收到流式分段: 如有
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.642] 信息  [RAG问答] 收到流式分段: 其他
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.642] 信息  [RAG问答] 收到流式分段: 可
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.697] 信息  [RAG问答] 收到流式分段: 协助
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.698] 信息  [RAG问答] 收到流式分段: 的问题
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.814] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.815] 信息  [RAG问答] 收到流式分段: 请
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.899] 信息  [RAG问答] 收到流式分段: 随时
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.899] 信息  [RAG问答] 收到流式分段: 告知
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.921] 信息  [RAG问答] 收到流式分段: 。
+											——line:90(file:RagService.java)
+[2026-04-13 17:05:31.998] 信息  [RAG问答] 流式问答完成
+											——line:97(file:RagService.java)
+[2026-04-13 17:12:02.411] 信息  [RAG问答] 开始流式问答，问题: 帮我看一下第一章主要内容是什么
+											——line:79(file:RagService.java)
+[2026-04-13 17:12:02.412] 信息  [RAG检索] 开始查询知识库，问题: 帮我看一下第一章主要内容是什么
+											——line:115(file:RagService.java)
+[2026-04-13 17:12:02.412] 信息  [RAG检索] 当前 EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:117(file:RagService.java)
+[2026-04-13 17:12:02.412] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:125(file:RagService.java)
+[2026-04-13 17:12:02.413] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\6f90b76a-dd05-43d8-89cf-cdc93901d936_公司录.docx
+											——line:131(file:RagService.java)
+[2026-04-13 17:12:02.847] 信息  [RAG检索] 问题向量化完成，开始查相似片段
+											——line:142(file:RagService.java)
+[2026-04-13 17:12:02.849] 信息  [RAG检索] 命中片段数: 0
+											——line:146(file:RagService.java)
+[2026-04-13 17:12:02.849] 警告  [RAG检索] 当前没有命中任何知识库片段
+											——line:166(file:RagService.java)
+[2026-04-13 17:12:02.849] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。当前知识库中还没有可用的检索片段。  [问题] 帮我看一下第一章主要内容是什么  请使用中文回答，并明确说明当前回答未引用到知识库内容。
+											——line:83(file:RagService.java)
+[2026-04-13 17:12:05.094] 信息  [RAG问答] 收到流式分段: 根据
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.207] 信息  [RAG问答] 收到流式分段: 您的
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.271] 信息  [RAG问答] 收到流式分段: 查询
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.335] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.336] 信息  [RAG问答] 收到流式分段: 当前
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.524] 信息  [RAG问答] 收到流式分段: 知识
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.525] 信息  [RAG问答] 收到流式分段: 库
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.528] 信息  [RAG问答] 收到流式分段: 中
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.529] 信息  [RAG问答] 收到流式分段: 尚未
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.533] 信息  [RAG问答] 收到流式分段: 收录
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.596] 信息  [RAG问答] 收到流式分段: 相关
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.661] 信息  [RAG问答] 收到流式分段: 文档
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.735] 信息  [RAG问答] 收到流式分段: 或
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.736] 信息  [RAG问答] 收到流式分段: 检索
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.793] 信息  [RAG问答] 收到流式分段: 片段
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.793] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.862] 信息  [RAG问答] 收到流式分段: 因此
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.863] 信息  [RAG问答] 收到流式分段: 我
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.932] 信息  [RAG问答] 收到流式分段: 无法
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:05.932] 信息  [RAG问答] 收到流式分段: 为您
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.084] 信息  [RAG问答] 收到流式分段: 提供
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.085] 信息  [RAG问答] 收到流式分段: 第一章
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.085] 信息  [RAG问答] 收到流式分段: 的具体
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.085] 信息  [RAG问答] 收到流式分段: 内容
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.127] 信息  [RAG问答] 收到流式分段: 。
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.128] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.184] 信息  [RAG问答] 收到流式分段: 建议
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.247] 信息  [RAG问答] 收到流式分段: 您
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.247] 信息  [RAG问答] 收到流式分段: ：
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.311] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.312] 信息  [RAG问答] 收到流式分段: 1
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.375] 信息  [RAG问答] 收到流式分段: .
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.376] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.441] 信息  [RAG问答] 收到流式分段: 确认
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.441] 信息  [RAG问答] 收到流式分段: 知识
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.506] 信息  [RAG问答] 收到流式分段: 库
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.507] 信息  [RAG问答] 收到流式分段: 文档
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.570] 信息  [RAG问答] 收到流式分段: 是否
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.571] 信息  [RAG问答] 收到流式分段: 已
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.634] 信息  [RAG问答] 收到流式分段: 成功
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.635] 信息  [RAG问答] 收到流式分段: 上传
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.699] 信息  [RAG问答] 收到流式分段: 并
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.763] 信息  [RAG问答] 收到流式分段: 完成
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.828] 信息  [RAG问答] 收到流式分段: 索引
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.829] 信息  [RAG问答] 收到流式分段: 处理
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.893] 信息  [RAG问答] 收到流式分段: 。
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.894] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.964] 信息  [RAG问答] 收到流式分段: 2
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:06.964] 信息  [RAG问答] 收到流式分段: .
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.027] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.028] 信息  [RAG问答] 收到流式分段: 若
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.092] 信息  [RAG问答] 收到流式分段: 文档
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.161] 信息  [RAG问答] 收到流式分段: 已
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.161] 信息  [RAG问答] 收到流式分段: 准备
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.226] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.293] 信息  [RAG问答] 收到流式分段: 可
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.363] 信息  [RAG问答] 收到流式分段: 尝试
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.363] 信息  [RAG问答] 收到流式分段: 重新
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.420] 信息  [RAG问答] 收到流式分段: 检索
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.519] 信息  [RAG问答] 收到流式分段: 或
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.519] 信息  [RAG问答] 收到流式分段: 联系
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.557] 信息  [RAG问答] 收到流式分段: 管理员
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.557] 信息  [RAG问答] 收到流式分段: 检查
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.626] 信息  [RAG问答] 收到流式分段: 知识
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.627] 信息  [RAG问答] 收到流式分段: 库
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.681] 信息  [RAG问答] 收到流式分段: 配置
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.681] 信息  [RAG问答] 收到流式分段: 。
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.827] 信息  [RAG问答] 收到流式分段: 
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.827] 信息  [RAG问答] 收到流式分段: 如有
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.832] 信息  [RAG问答] 收到流式分段: 其他
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.832] 信息  [RAG问答] 收到流式分段: 问题
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.877] 信息  [RAG问答] 收到流式分段: 或
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.943] 信息  [RAG问答] 收到流式分段: 需要
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:07.944] 信息  [RAG问答] 收到流式分段: 进一步
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:08.012] 信息  [RAG问答] 收到流式分段: 协助
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:08.012] 信息  [RAG问答] 收到流式分段: ，
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:08.197] 信息  [RAG问答] 收到流式分段: 请
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:08.197] 信息  [RAG问答] 收到流式分段: 随时
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:08.226] 信息  [RAG问答] 收到流式分段: 告知
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:08.227] 信息  [RAG问答] 收到流式分段: ！
+											——line:90(file:RagService.java)
+[2026-04-13 17:12:08.227] 信息  [RAG问答] 流式问答完成
+											——line:97(file:RagService.java)
+[2026-04-13 17:24:16.087] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:146(file:OpenAiConfig.java)
+[2026-04-13 17:24:16.092] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=ai_service:embedding:，dimension=1024
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 17:24:16.127] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:134(file:OpenAiConfig.java)
+[2026-04-13 17:24:57.937] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:64(file:DocumentService.java)
+[2026-04-13 17:24:57.937] 信息  [知识库上传] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:66(file:DocumentService.java)
+[2026-04-13 17:24:57.938] 信息  [知识库上传] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:68(file:DocumentService.java)
+[2026-04-13 17:24:57.938] 信息  [知识库上传] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:70(file:DocumentService.java)
+[2026-04-13 17:24:57.939] 信息  [知识库上传] 文件字节大小: 21208
+											——line:74(file:DocumentService.java)
+[2026-04-13 17:24:57.939] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:149(file:DocumentService.java)
+[2026-04-13 17:24:58.695] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:80(file:DocumentService.java)
+[2026-04-13 17:24:58.696] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:24:59.284] 信息  [向量写入] 第 1 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:24:59.306] 信息  [向量写入] 第 1 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:32:15.481] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:146(file:OpenAiConfig.java)
+[2026-04-13 17:32:15.486] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=ai_service:embedding:，dimension=1024
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 17:32:15.527] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:134(file:OpenAiConfig.java)
+[2026-04-13 17:32:23.873] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:64(file:DocumentService.java)
+[2026-04-13 17:32:23.873] 信息  [知识库上传] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:66(file:DocumentService.java)
+[2026-04-13 17:32:23.873] 信息  [知识库上传] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:68(file:DocumentService.java)
+[2026-04-13 17:32:23.874] 信息  [知识库上传] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:70(file:DocumentService.java)
+[2026-04-13 17:32:23.875] 信息  [知识库上传] 文件字节大小: 21208
+											——line:74(file:DocumentService.java)
+[2026-04-13 17:32:23.875] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:157(file:DocumentService.java)
+[2026-04-13 17:32:24.539] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:80(file:DocumentService.java)
+[2026-04-13 17:32:24.541] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:32:36.130] 信息  [向量写入] 第 1 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:32:36.150] 信息  [向量写入] 第 1 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:32:36.153] 信息  [向量自检] 第 1 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:32:36.157] 信息  [向量自检] 第 1 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:32:36.159] 信息  [向量自检] 第 1 片 Memory 回查相似度: 1.0，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信...
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:32:36.159] 信息  [知识库切片] 第 2 片长度: 689，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:32:36.324] 信息  [向量写入] 第 2 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:32:36.328] 信息  [向量写入] 第 2 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:32:36.328] 信息  [向量自检] 第 2 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:32:36.329] 信息  [向量自检] 第 2 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:32:36.329] 信息  [向量自检] 第 2 片 Memory 回查相似度: 1.0，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长...
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:32:36.330] 信息  [知识库切片] 第 3 片长度: 603，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:32:36.481] 信息  [向量写入] 第 3 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:32:36.483] 信息  [向量写入] 第 3 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:32:36.484] 信息  [向量自检] 第 3 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:32:36.485] 信息  [向量自检] 第 3 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:32:36.485] 信息  [向量自检] 第 3 片 Memory 回查相似度: 1.0，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）...
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:32:36.485] 信息  [知识库切片] 第 4 片长度: 101，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:32:36.630] 信息  [向量写入] 第 4 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:32:36.632] 信息  [向量写入] 第 4 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:32:36.633] 信息  [向量自检] 第 4 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:32:36.634] 信息  [向量自检] 第 4 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:32:36.634] 信息  [向量自检] 第 4 片 Memory 回查相似度: 1.0，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:32:36.636] 信息  [知识库上传] 文件已落盘，路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\81273b88-fa1e-47a5-83d6-d6b6d18e624f_公司录.docx
+											——line:137(file:DocumentService.java)
+[2026-04-13 17:32:36.637] 信息  [知识库上传] 文件处理完成: 公司录.docx，总片段数: 4
+											——line:141(file:DocumentService.java)
+[2026-04-13 17:32:54.994] 信息  [RAG问答] 开始流式问答，问题: 帮我查一下普通员工转正后月薪总额
+											——line:84(file:RagService.java)
+[2026-04-13 17:32:54.995] 信息  [RAG检索] 开始查询知识库，问题: 帮我查一下普通员工转正后月薪总额
+											——line:120(file:RagService.java)
+[2026-04-13 17:32:54.995] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:122(file:RagService.java)
+[2026-04-13 17:32:54.995] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 17:32:54.995] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 17:32:54.996] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:134(file:RagService.java)
+[2026-04-13 17:32:54.996] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\81273b88-fa1e-47a5-83d6-d6b6d18e624f_公司录.docx
+											——line:140(file:RagService.java)
+[2026-04-13 17:32:55.141] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:151(file:RagService.java)
+[2026-04-13 17:32:55.142] 信息  [RAG检索] Redis 命中片段数: 0
+											——line:155(file:RagService.java)
+[2026-04-13 17:32:55.143] 信息  [RAG检索] Memory 命中片段数: 4
+											——line:159(file:RagService.java)
+[2026-04-13 17:32:55.143] 信息  [RAG检索] 最终采用第 1 片，相似度: 0.7779119301037676，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期...
+											——line:169(file:RagService.java)
+[2026-04-13 17:32:55.143] 信息  [RAG检索] 最终采用第 2 片，相似度: 0.760762166343645，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信用原则，提交的所有个人信息（学历、工作经历、健康状况等）必须真实有效。如有虚假，公司可立即解除劳动合同且不支付经济补偿。 第二章 考勤与休假 第3条 工作时间 ...
+											——line:169(file:RagService.java)
+[2026-04-13 17:32:55.144] 信息  [RAG检索] 最终采用第 3 片，相似度: 0.736681578360833，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:169(file:RagService.java)
+[2026-04-13 17:32:55.144] 信息  [RAG检索] 最终采用第 4 片，相似度: 0.7362246644788752，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议...
+											——line:169(file:RagService.java)
+[2026-04-13 17:32:55.144] 信息  [RAG检索] 拼接后的上下文预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧哗、吸烟（指定区域除外）。违反者首次警告，再次发现每次罚款50元，当月累...
+											——line:189(file:RagService.java)
+[2026-04-13 17:32:55.145] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。结合下列检索到的上下文回答用户问题。  [上下文] · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧...
+											——line:88(file:RagService.java)
+[2026-04-13 17:33:07.284] 信息  [RAG问答] 收到流式分段: 根据
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.470] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.536] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.536] 信息  [RAG问答] 收到流式分段: 普通
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.600] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.600] 信息  [RAG问答] 收到流式分段: 转
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.664] 信息  [RAG问答] 收到流式分段: 正
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.665] 信息  [RAG问答] 收到流式分段: 后
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.761] 信息  [RAG问答] 收到流式分段: 月
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.762] 信息  [RAG问答] 收到流式分段: 薪
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.794] 信息  [RAG问答] 收到流式分段: 总额
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.795] 信息  [RAG问答] 收到流式分段: 为
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.861] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.929] 信息  [RAG问答] 收到流式分段: 500
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.930] 信息  [RAG问答] 收到流式分段: 0
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.992] 信息  [RAG问答] 收到流式分段: 元
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:07.993] 信息  [RAG问答] 收到流式分段: （
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.068] 信息  [RAG问答] 收到流式分段: 税前
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.068] 信息  [RAG问答] 收到流式分段: ）
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.131] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.131] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.321] 信息  [RAG问答] 收到流式分段: 该
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.324] 信息  [RAG问答] 收到流式分段: 信息
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.326] 信息  [RAG问答] 收到流式分段: 在
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.327] 信息  [RAG问答] 收到流式分段: 第三章
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.383] 信息  [RAG问答] 收到流式分段: 第
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.384] 信息  [RAG问答] 收到流式分段: 8
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.449] 信息  [RAG问答] 收到流式分段: 条
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.450] 信息  [RAG问答] 收到流式分段: “
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.519] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.521] 信息  [RAG问答] 收到流式分段: 结构
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.583] 信息  [RAG问答] 收到流式分段: ”
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.584] 信息  [RAG问答] 收到流式分段: 中
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.648] 信息  [RAG问答] 收到流式分段: 明确
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.649] 信息  [RAG问答] 收到流式分段: 列出
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.713] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:08.713] 信息  [RAG问答] 流式问答完成
+											——line:102(file:RagService.java)
+[2026-04-13 17:33:16.371] 信息  [RAG问答] 开始流式问答，问题: 帮我查一下普通员工转正后月薪总额
+											——line:84(file:RagService.java)
+[2026-04-13 17:33:16.372] 信息  [RAG检索] 开始查询知识库，问题: 帮我查一下普通员工转正后月薪总额
+											——line:120(file:RagService.java)
+[2026-04-13 17:33:16.372] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:122(file:RagService.java)
+[2026-04-13 17:33:16.372] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 17:33:16.372] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 17:33:16.373] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:134(file:RagService.java)
+[2026-04-13 17:33:16.373] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\81273b88-fa1e-47a5-83d6-d6b6d18e624f_公司录.docx
+											——line:140(file:RagService.java)
+[2026-04-13 17:33:16.862] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:151(file:RagService.java)
+[2026-04-13 17:33:16.863] 信息  [RAG检索] Redis 命中片段数: 0
+											——line:155(file:RagService.java)
+[2026-04-13 17:33:16.863] 信息  [RAG检索] Memory 命中片段数: 4
+											——line:159(file:RagService.java)
+[2026-04-13 17:33:16.864] 信息  [RAG检索] 最终采用第 1 片，相似度: 0.7779563209501504，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期...
+											——line:169(file:RagService.java)
+[2026-04-13 17:33:16.864] 信息  [RAG检索] 最终采用第 2 片，相似度: 0.7607873278316264，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信用原则，提交的所有个人信息（学历、工作经历、健康状况等）必须真实有效。如有虚假，公司可立即解除劳动合同且不支付经济补偿。 第二章 考勤与休假 第3条 工作时间 ...
+											——line:169(file:RagService.java)
+[2026-04-13 17:33:16.864] 信息  [RAG检索] 最终采用第 3 片，相似度: 0.7366775567066148，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:169(file:RagService.java)
+[2026-04-13 17:33:16.864] 信息  [RAG检索] 最终采用第 4 片，相似度: 0.7362380631879513，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议...
+											——line:169(file:RagService.java)
+[2026-04-13 17:33:16.864] 信息  [RAG检索] 拼接后的上下文预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧哗、吸烟（指定区域除外）。违反者首次警告，再次发现每次罚款50元，当月累...
+											——line:189(file:RagService.java)
+[2026-04-13 17:33:16.865] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。结合下列检索到的上下文回答用户问题。  [上下文] · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧...
+											——line:88(file:RagService.java)
+[2026-04-13 17:33:17.608] 信息  [RAG问答] 收到流式分段: 根据
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:17.839] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:17.980] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:17.980] 信息  [RAG问答] 收到流式分段: 普通
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:17.984] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:17.985] 信息  [RAG问答] 收到流式分段: 转
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.061] 信息  [RAG问答] 收到流式分段: 正
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.061] 信息  [RAG问答] 收到流式分段: 后
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.131] 信息  [RAG问答] 收到流式分段: 月
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.131] 信息  [RAG问答] 收到流式分段: 薪
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.203] 信息  [RAG问答] 收到流式分段: 总额
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.203] 信息  [RAG问答] 收到流式分段: 为
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.275] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.347] 信息  [RAG问答] 收到流式分段: 500
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.348] 信息  [RAG问答] 收到流式分段: 0
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.418] 信息  [RAG问答] 收到流式分段: 元
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.419] 信息  [RAG问答] 收到流式分段: （
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.493] 信息  [RAG问答] 收到流式分段: 税前
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.493] 信息  [RAG问答] 收到流式分段: ）
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.566] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.566] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.641] 信息  [RAG问答] 收到流式分段: 该
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.713] 信息  [RAG问答] 收到流式分段: 信息
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.785] 信息  [RAG问答] 收到流式分段: 在
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.786] 信息  [RAG问答] 收到流式分段: 第三章
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.864] 信息  [RAG问答] 收到流式分段: 第
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.864] 信息  [RAG问答] 收到流式分段: 8
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.930] 信息  [RAG问答] 收到流式分段: 条
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:18.930] 信息  [RAG问答] 收到流式分段: “
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.017] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.018] 信息  [RAG问答] 收到流式分段: 结构
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.099] 信息  [RAG问答] 收到流式分段: ”
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.099] 信息  [RAG问答] 收到流式分段: 中
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.149] 信息  [RAG问答] 收到流式分段: 明确
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.149] 信息  [RAG问答] 收到流式分段: 列出
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.373] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:33:19.374] 信息  [RAG问答] 流式问答完成
+											——line:102(file:RagService.java)
+[2026-04-13 17:48:37.957] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 17:48:37.961] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=1024
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 17:48:37.998] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 17:48:37.998] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 17:48:53.177] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:64(file:DocumentService.java)
+[2026-04-13 17:48:53.178] 信息  [知识库上传] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:66(file:DocumentService.java)
+[2026-04-13 17:48:53.178] 信息  [知识库上传] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:68(file:DocumentService.java)
+[2026-04-13 17:48:53.178] 信息  [知识库上传] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:70(file:DocumentService.java)
+[2026-04-13 17:48:53.179] 信息  [知识库上传] 文件字节大小: 21208
+											——line:74(file:DocumentService.java)
+[2026-04-13 17:48:53.180] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:157(file:DocumentService.java)
+[2026-04-13 17:48:54.104] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:80(file:DocumentService.java)
+[2026-04-13 17:48:54.105] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:48:54.623] 信息  [向量写入] 第 1 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:48:54.641] 信息  [向量写入] 第 1 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:48:54.644] 信息  [向量自检] 第 1 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:48:54.645] 信息  [向量自检] 第 1 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:48:54.646] 信息  [向量自检] 第 1 片 Memory 回查相似度: 1.0，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信...
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:48:54.647] 信息  [知识库切片] 第 2 片长度: 689，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:48:54.784] 信息  [向量写入] 第 2 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:48:54.789] 信息  [向量写入] 第 2 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:48:54.790] 信息  [向量自检] 第 2 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:48:54.790] 信息  [向量自检] 第 2 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:48:54.790] 信息  [向量自检] 第 2 片 Memory 回查相似度: 1.0，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长...
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:48:54.791] 信息  [知识库切片] 第 3 片长度: 603，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:48:54.994] 信息  [向量写入] 第 3 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:48:54.996] 信息  [向量写入] 第 3 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:48:54.997] 信息  [向量自检] 第 3 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:48:54.997] 信息  [向量自检] 第 3 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:48:54.998] 信息  [向量自检] 第 3 片 Memory 回查相似度: 1.0，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）...
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:48:54.998] 信息  [知识库切片] 第 4 片长度: 101，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:48:55.210] 信息  [向量写入] 第 4 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:48:55.212] 信息  [向量写入] 第 4 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 17:48:55.213] 信息  [向量自检] 第 4 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 17:48:55.213] 信息  [向量自检] 第 4 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 17:48:55.213] 信息  [向量自检] 第 4 片 Memory 回查相似度: 1.0，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:128(file:DocumentService.java)
+[2026-04-13 17:48:55.216] 信息  [知识库上传] 文件已落盘，路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\1e4d0725-97b2-4a36-8e72-0916457cc951_公司录.docx
+											——line:137(file:DocumentService.java)
+[2026-04-13 17:48:55.217] 信息  [知识库上传] 文件处理完成: 公司录.docx，总片段数: 4
+											——line:141(file:DocumentService.java)
+[2026-04-13 17:49:03.131] 信息  [RAG问答] 开始流式问答，问题: 帮我查一下普通员工转正后月薪总额
+											——line:84(file:RagService.java)
+[2026-04-13 17:49:03.132] 信息  [RAG检索] 开始查询知识库，问题: 帮我查一下普通员工转正后月薪总额
+											——line:120(file:RagService.java)
+[2026-04-13 17:49:03.132] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:122(file:RagService.java)
+[2026-04-13 17:49:03.132] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 17:49:03.132] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 17:49:03.133] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:134(file:RagService.java)
+[2026-04-13 17:49:03.133] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\1e4d0725-97b2-4a36-8e72-0916457cc951_公司录.docx
+											——line:140(file:RagService.java)
+[2026-04-13 17:49:03.371] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:151(file:RagService.java)
+[2026-04-13 17:49:03.372] 信息  [RAG检索] Redis 命中片段数: 0
+											——line:155(file:RagService.java)
+[2026-04-13 17:49:03.373] 信息  [RAG检索] Memory 命中片段数: 4
+											——line:159(file:RagService.java)
+[2026-04-13 17:49:03.373] 信息  [RAG检索] 最终采用第 1 片，相似度: 0.7779119301037676，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期...
+											——line:169(file:RagService.java)
+[2026-04-13 17:49:03.374] 信息  [RAG检索] 最终采用第 2 片，相似度: 0.760762166343645，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信用原则，提交的所有个人信息（学历、工作经历、健康状况等）必须真实有效。如有虚假，公司可立即解除劳动合同且不支付经济补偿。 第二章 考勤与休假 第3条 工作时间 ...
+											——line:169(file:RagService.java)
+[2026-04-13 17:49:03.374] 信息  [RAG检索] 最终采用第 3 片，相似度: 0.736681578360833，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:169(file:RagService.java)
+[2026-04-13 17:49:03.374] 信息  [RAG检索] 最终采用第 4 片，相似度: 0.7362246644788752，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议...
+											——line:169(file:RagService.java)
+[2026-04-13 17:49:03.375] 信息  [RAG检索] 拼接后的上下文预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧哗、吸烟（指定区域除外）。违反者首次警告，再次发现每次罚款50元，当月累...
+											——line:189(file:RagService.java)
+[2026-04-13 17:49:03.375] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。结合下列检索到的上下文回答用户问题。  [上下文] · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧...
+											——line:88(file:RagService.java)
+[2026-04-13 17:49:15.501] 信息  [RAG问答] 收到流式分段: 根据
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.711] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.766] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.766] 信息  [RAG问答] 收到流式分段: 普通
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.817] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.817] 信息  [RAG问答] 收到流式分段: 转
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.859] 信息  [RAG问答] 收到流式分段: 正
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.860] 信息  [RAG问答] 收到流式分段: 后
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.918] 信息  [RAG问答] 收到流式分段: 月
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.919] 信息  [RAG问答] 收到流式分段: 薪
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.976] 信息  [RAG问答] 收到流式分段: 总额
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:15.977] 信息  [RAG问答] 收到流式分段: 为
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.039] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.094] 信息  [RAG问答] 收到流式分段: 500
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.095] 信息  [RAG问答] 收到流式分段: 0
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.151] 信息  [RAG问答] 收到流式分段: 元
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.152] 信息  [RAG问答] 收到流式分段: （
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.210] 信息  [RAG问答] 收到流式分段: 税前
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.211] 信息  [RAG问答] 收到流式分段: ）
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.282] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.282] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.323] 信息  [RAG问答] 收到流式分段: 该
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.323] 信息  [RAG问答] 收到流式分段: 信息
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.379] 信息  [RAG问答] 收到流式分段: 在
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.380] 信息  [RAG问答] 收到流式分段: 第三章
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.436] 信息  [RAG问答] 收到流式分段: 第
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.437] 信息  [RAG问答] 收到流式分段: 8
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.537] 信息  [RAG问答] 收到流式分段: 条
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.538] 信息  [RAG问答] 收到流式分段: “
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.552] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.553] 信息  [RAG问答] 收到流式分段: 结构
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.609] 信息  [RAG问答] 收到流式分段: ”
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.610] 信息  [RAG问答] 收到流式分段: 中
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.665] 信息  [RAG问答] 收到流式分段: 明确
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.665] 信息  [RAG问答] 收到流式分段: 列出
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.719] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:49:16.720] 信息  [RAG问答] 流式问答完成
+											——line:102(file:RagService.java)
+[2026-04-13 17:55:55.507] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 17:55:55.512] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=1024
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 17:55:55.551] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 17:55:55.551] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 17:56:15.444] 信息  [RAG问答] 开始流式问答，问题: 帮我查一下普通员工转正后月薪总额
+											——line:84(file:RagService.java)
+[2026-04-13 17:56:15.444] 信息  [RAG检索] 开始查询知识库，问题: 帮我查一下普通员工转正后月薪总额
+											——line:120(file:RagService.java)
+[2026-04-13 17:56:15.445] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:122(file:RagService.java)
+[2026-04-13 17:56:15.445] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 17:56:15.445] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 17:56:15.455] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:134(file:RagService.java)
+[2026-04-13 17:56:15.455] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\1e4d0725-97b2-4a36-8e72-0916457cc951_公司录.docx
+											——line:140(file:RagService.java)
+[2026-04-13 17:56:27.000] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:151(file:RagService.java)
+[2026-04-13 17:56:27.004] 信息  [RAG检索] Redis 命中片段数: 0
+											——line:155(file:RagService.java)
+[2026-04-13 17:56:27.005] 信息  [RAG检索] Memory 命中片段数: 0
+											——line:159(file:RagService.java)
+[2026-04-13 17:56:27.006] 警告  [RAG检索] Redis 与 Memory 都没有命中任何知识库片段
+											——line:181(file:RagService.java)
+[2026-04-13 17:56:27.006] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。当前知识库中还没有可用的检索片段。  [问题] 帮我查一下普通员工转正后月薪总额  请使用中文回答，并明确说明当前回答未引用到知识库内容。
+											——line:88(file:RagService.java)
+[2026-04-13 17:56:27.821] 信息  [RAG问答] 收到流式分段: 根据
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:27.947] 信息  [RAG问答] 收到流式分段: 当前
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.056] 信息  [RAG问答] 收到流式分段: 查询
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.057] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.057] 信息  [RAG问答] 收到流式分段: 我
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.197] 信息  [RAG问答] 收到流式分段: 无法
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.198] 信息  [RAG问答] 收到流式分段: 提供
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.199] 信息  [RAG问答] 收到流式分段: 关于
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.253] 信息  [RAG问答] 收到流式分段: “
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.254] 信息  [RAG问答] 收到流式分段: 普通
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.310] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.311] 信息  [RAG问答] 收到流式分段: 转
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.370] 信息  [RAG问答] 收到流式分段: 正
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.371] 信息  [RAG问答] 收到流式分段: 后
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.434] 信息  [RAG问答] 收到流式分段: 月
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.436] 信息  [RAG问答] 收到流式分段: 薪
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.498] 信息  [RAG问答] 收到流式分段: 总额
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.500] 信息  [RAG问答] 收到流式分段: ”
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.563] 信息  [RAG问答] 收到流式分段: 的具体
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.564] 信息  [RAG问答] 收到流式分段: 信息
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.640] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.640] 信息  [RAG问答] 收到流式分段: 因为
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.689] 信息  [RAG问答] 收到流式分段: 企业
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.804] 信息  [RAG问答] 收到流式分段: 知识
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.805] 信息  [RAG问答] 收到流式分段: 库
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.823] 信息  [RAG问答] 收到流式分段: 中
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.824] 信息  [RAG问答] 收到流式分段: 暂无
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.881] 信息  [RAG问答] 收到流式分段: 相关的
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.944] 信息  [RAG问答] 收到流式分段: 检索
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:28.945] 信息  [RAG问答] 收到流式分段: 内容
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.006] 信息  [RAG问答] 收到流式分段: 可供
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.007] 信息  [RAG问答] 收到流式分段: 引用
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.084] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.084] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.216] 信息  [RAG问答] 收到流式分段: 建议
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.217] 信息  [RAG问答] 收到流式分段: 您
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.256] 信息  [RAG问答] 收到流式分段: ：
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.257] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.258] 信息  [RAG问答] 收到流式分段: 1
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.258] 信息  [RAG问答] 收到流式分段: .
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.323] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.324] 信息  [RAG问答] 收到流式分段: 直接
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.386] 信息  [RAG问答] 收到流式分段: 咨询
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.387] 信息  [RAG问答] 收到流式分段: 人力资源
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.450] 信息  [RAG问答] 收到流式分段: 部门
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.450] 信息  [RAG问答] 收到流式分段: 或
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.515] 信息  [RAG问答] 收到流式分段: 相关
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.607] 信息  [RAG问答] 收到流式分段: 管理人员
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.608] 信息  [RAG问答] 收到流式分段: ；
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.643] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.644] 信息  [RAG问答] 收到流式分段: 2
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.711] 信息  [RAG问答] 收到流式分段: .
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.711] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.768] 信息  [RAG问答] 收到流式分段: 查阅
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.835] 信息  [RAG问答] 收到流式分段: 公司
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.836] 信息  [RAG问答] 收到流式分段: 内部的
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.912] 信息  [RAG问答] 收到流式分段: 薪酬
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.913] 信息  [RAG问答] 收到流式分段: 制度
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.960] 信息  [RAG问答] 收到流式分段: 或
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:29.961] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.025] 信息  [RAG问答] 收到流式分段: 手册
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.025] 信息  [RAG问答] 收到流式分段: ；
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.087] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.088] 信息  [RAG问答] 收到流式分段: 3
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.153] 信息  [RAG问答] 收到流式分段: .
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.154] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.230] 信息  [RAG问答] 收到流式分段: 若
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.286] 信息  [RAG问答] 收到流式分段: 后续
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.340] 信息  [RAG问答] 收到流式分段: 知识
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.405] 信息  [RAG问答] 收到流式分段: 库
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.405] 信息  [RAG问答] 收到流式分段: 更新
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.465] 信息  [RAG问答] 收到流式分段: 相关
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.528] 信息  [RAG问答] 收到流式分段: 文件
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.595] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.596] 信息  [RAG问答] 收到流式分段: 我将
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.660] 信息  [RAG问答] 收到流式分段: 可
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.784] 信息  [RAG问答] 收到流式分段: 协助
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.784] 信息  [RAG问答] 收到流式分段: 检索
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.791] 信息  [RAG问答] 收到流式分段: 具体
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.846] 信息  [RAG问答] 收到流式分段: 政策
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.911] 信息  [RAG问答] 收到流式分段: 细节
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.974] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:30.975] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.080] 信息  [RAG问答] 收到流式分段: 如有
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.080] 信息  [RAG问答] 收到流式分段: 其他
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.103] 信息  [RAG问答] 收到流式分段: 可
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.167] 信息  [RAG问答] 收到流式分段: 协助
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.232] 信息  [RAG问答] 收到流式分段: 的问题
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.232] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.299] 信息  [RAG问答] 收到流式分段: 请
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.301] 信息  [RAG问答] 收到流式分段: 随时
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.362] 信息  [RAG问答] 收到流式分段: 告知
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.362] 信息  [RAG问答] 收到流式分段: ！
+											——line:95(file:RagService.java)
+[2026-04-13 17:56:31.491] 信息  [RAG问答] 流式问答完成
+											——line:102(file:RagService.java)
+[2026-04-13 17:56:48.303] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:64(file:DocumentService.java)
+[2026-04-13 17:56:48.303] 信息  [知识库上传] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:66(file:DocumentService.java)
+[2026-04-13 17:56:48.304] 信息  [知识库上传] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:68(file:DocumentService.java)
+[2026-04-13 17:56:48.304] 信息  [知识库上传] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:70(file:DocumentService.java)
+[2026-04-13 17:56:48.305] 信息  [知识库上传] 文件字节大小: 21208
+											——line:74(file:DocumentService.java)
+[2026-04-13 17:56:48.305] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:157(file:DocumentService.java)
+[2026-04-13 17:56:49.053] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:80(file:DocumentService.java)
+[2026-04-13 17:56:49.054] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:90(file:DocumentService.java)
+[2026-04-13 17:56:49.234] 信息  [向量写入] 第 1 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 17:56:49.253] 信息  [向量写入] 第 1 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:00:09.609] 警告  [向量自检] 第 1 片 Redis 写后即查失败，不影响上传: java.net.SocketTimeoutException: Read timed out
+											——line:117(file:DocumentService.java)
+[2026-04-13 18:00:29.338] 信息  [向量自检] 第 1 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:00:29.349] 信息  [向量自检] 第 1 片 Memory 回查相似度: 1.0，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信...
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:00:29.350] 信息  [知识库切片] 第 2 片长度: 689，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:00:39.853] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:64(file:DocumentService.java)
+[2026-04-13 18:00:39.853] 信息  [知识库上传] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:66(file:DocumentService.java)
+[2026-04-13 18:00:39.853] 信息  [知识库上传] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:68(file:DocumentService.java)
+[2026-04-13 18:00:39.854] 信息  [知识库上传] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:70(file:DocumentService.java)
+[2026-04-13 18:00:39.854] 信息  [知识库上传] 文件字节大小: 21208
+											——line:74(file:DocumentService.java)
+[2026-04-13 18:00:39.854] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:157(file:DocumentService.java)
+[2026-04-13 18:00:40.170] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:80(file:DocumentService.java)
+[2026-04-13 18:00:40.171] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:00:40.852] 信息  [向量写入] 第 2 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:00:40.891] 信息  [向量写入] 第 2 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:00:44.223] 信息  [向量写入] 第 1 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:00:44.224] 信息  [向量自检] 第 2 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 18:01:32.691] 信息  [向量写入] 第 1 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:01:38.512] 信息  [向量自检] 第 1 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 18:01:40.595] 信息  [向量自检] 第 1 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:01:40.595] 信息  [向量自检] 第 1 片 Memory 回查相似度: 1.0，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信...
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:01:40.596] 信息  [知识库切片] 第 2 片长度: 689，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:01:40.596] 信息  [向量自检] 第 2 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:02:30.476] 信息  [向量写入] 第 2 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:02:30.476] 信息  [向量自检] 第 2 片 Memory 回查相似度: 1.0，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长...
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:02:30.478] 信息  [知识库切片] 第 3 片长度: 603，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:02:30.478] 信息  [向量写入] 第 2 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:02:33.325] 信息  [向量自检] 第 2 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 18:02:44.372] 信息  [向量自检] 第 2 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:02:44.373] 信息  [向量自检] 第 2 片 Memory 回查相似度: 1.0，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长...
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:02:44.374] 信息  [知识库切片] 第 3 片长度: 603，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:02:44.680] 信息  [向量写入] 第 3 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:02:44.718] 信息  [向量写入] 第 3 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:02:46.344] 信息  [向量自检] 第 3 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 18:02:58.563] 信息  [向量自检] 第 3 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:03:18.975] 信息  [向量自检] 第 3 片 Memory 回查相似度: 1.0，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）...
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:03:18.976] 信息  [知识库切片] 第 4 片长度: 101，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:03:18.987] 信息  [向量写入] 第 3 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:04:21.479] 信息  [向量写入] 第 3 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:04:23.309] 信息  [向量自检] 第 3 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 18:04:24.391] 信息  [向量自检] 第 3 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:04:24.393] 信息  [向量自检] 第 3 片 Memory 回查相似度: 1.0，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）...
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:04:24.394] 信息  [知识库切片] 第 4 片长度: 101，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:04:24.741] 信息  [向量写入] 第 4 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:04:26.042] 信息  [向量写入] 第 4 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:04:26.487] 信息  [向量自检] 第 4 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 18:04:27.326] 信息  [向量自检] 第 4 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:04:27.327] 信息  [向量自检] 第 4 片 Memory 回查相似度: 1.0，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:04:27.335] 信息  [知识库上传] 文件已落盘，路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\8f888b9b-464a-40b8-89a4-9859511bb2ef_公司录.docx
+											——line:137(file:DocumentService.java)
+[2026-04-13 18:04:27.336] 信息  [知识库上传] 文件处理完成: 公司录.docx，总片段数: 4
+											——line:141(file:DocumentService.java)
+[2026-04-13 18:04:27.344] 信息  [向量写入] 第 4 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:04:27.777] 信息  [向量写入] 第 4 片双写完成
+											——line:100(file:DocumentService.java)
+[2026-04-13 18:04:28.149] 信息  [向量自检] 第 4 片 Redis 写后即查命中数: 0
+											——line:106(file:DocumentService.java)
+[2026-04-13 18:04:29.951] 信息  [向量自检] 第 4 片 Memory 写后即查命中数: 1
+											——line:124(file:DocumentService.java)
+[2026-04-13 18:04:29.953] 信息  [向量自检] 第 4 片 Memory 回查相似度: 1.0，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:128(file:DocumentService.java)
+[2026-04-13 18:04:29.957] 信息  [知识库上传] 文件已落盘，路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\b151c538-19d6-4628-ad3b-74ab6586a714_公司录.docx
+											——line:137(file:DocumentService.java)
+[2026-04-13 18:04:29.958] 信息  [知识库上传] 文件处理完成: 公司录.docx，总片段数: 4
+											——line:141(file:DocumentService.java)
+[2026-04-13 18:20:43.163] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 18:20:43.167] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=2048
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 18:20:43.203] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 18:20:43.203] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 18:21:23.884] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:64(file:DocumentService.java)
+[2026-04-13 18:21:23.885] 信息  [知识库上传] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:66(file:DocumentService.java)
+[2026-04-13 18:21:23.885] 信息  [知识库上传] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:68(file:DocumentService.java)
+[2026-04-13 18:21:23.885] 信息  [知识库上传] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:70(file:DocumentService.java)
+[2026-04-13 18:21:23.887] 信息  [知识库上传] 文件字节大小: 21208
+											——line:74(file:DocumentService.java)
+[2026-04-13 18:21:23.887] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:159(file:DocumentService.java)
+[2026-04-13 18:21:24.631] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:80(file:DocumentService.java)
+[2026-04-13 18:21:24.633] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:21:36.171] 信息  [向量写入] 第 1 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:21:36.188] 信息  [向量写入] 第 1 片 Redis 返回文档ID: e7b7f9b6-cd4f-4354-880f-5ad65a11d788
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:21:36.189] 信息  [向量写入] 第 1 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:21:36.192] 警告  [向量自检] 第 1 片 Redis 写后即查失败，不影响上传: No such index ai_service_embedding_index
+											——line:119(file:DocumentService.java)
+[2026-04-13 18:21:36.193] 信息  [向量自检] 第 1 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:21:36.194] 信息  [向量自检] 第 1 片 Memory 回查相似度: 1.0，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信...
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:21:36.194] 信息  [知识库切片] 第 2 片长度: 689，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:21:36.371] 信息  [向量写入] 第 2 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:21:36.374] 信息  [向量写入] 第 2 片 Redis 返回文档ID: 40331831-7fbc-473d-9e1a-0e94273fe699
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:21:36.375] 信息  [向量写入] 第 2 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:21:36.375] 警告  [向量自检] 第 2 片 Redis 写后即查失败，不影响上传: No such index ai_service_embedding_index
+											——line:119(file:DocumentService.java)
+[2026-04-13 18:21:36.376] 信息  [向量自检] 第 2 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:21:36.376] 信息  [向量自检] 第 2 片 Memory 回查相似度: 1.0，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长...
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:21:36.376] 信息  [知识库切片] 第 3 片长度: 603，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:21:36.537] 信息  [向量写入] 第 3 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:21:36.539] 信息  [向量写入] 第 3 片 Redis 返回文档ID: fdcc6a4a-2e4e-4c67-af04-a14816397b25
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:21:36.540] 信息  [向量写入] 第 3 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:21:36.541] 警告  [向量自检] 第 3 片 Redis 写后即查失败，不影响上传: No such index ai_service_embedding_index
+											——line:119(file:DocumentService.java)
+[2026-04-13 18:21:36.541] 信息  [向量自检] 第 3 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:21:36.541] 信息  [向量自检] 第 3 片 Memory 回查相似度: 1.0，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）...
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:21:36.542] 信息  [知识库切片] 第 4 片长度: 101，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:21:36.662] 信息  [向量写入] 第 4 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:21:36.665] 信息  [向量写入] 第 4 片 Redis 返回文档ID: 0a1ee531-a315-4fa9-94f0-39f48d581604
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:21:36.666] 信息  [向量写入] 第 4 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:21:36.666] 警告  [向量自检] 第 4 片 Redis 写后即查失败，不影响上传: No such index ai_service_embedding_index
+											——line:119(file:DocumentService.java)
+[2026-04-13 18:21:36.667] 信息  [向量自检] 第 4 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:21:36.667] 信息  [向量自检] 第 4 片 Memory 回查相似度: 1.0，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:21:36.670] 信息  [知识库上传] 文件已落盘，路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\311a20f0-206e-4740-acc2-6e38d2626475_公司录.docx
+											——line:139(file:DocumentService.java)
+[2026-04-13 18:21:36.671] 信息  [知识库上传] 文件处理完成: 公司录.docx，总片段数: 4
+											——line:143(file:DocumentService.java)
+[2026-04-13 18:25:36.365] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 18:25:36.370] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=2048
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 18:25:36.408] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 18:25:36.409] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 18:26:23.414] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 18:26:23.419] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=2048
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 18:26:23.454] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 18:26:23.455] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 18:26:52.346] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 18:26:52.352] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=2048
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 18:26:52.394] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 18:26:52.395] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 18:28:11.266] 信息  [知识库上传] 开始处理文件: 公司录.docx
+											——line:64(file:DocumentService.java)
+[2026-04-13 18:28:11.267] 信息  [知识库上传] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:66(file:DocumentService.java)
+[2026-04-13 18:28:11.267] 信息  [知识库上传] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:68(file:DocumentService.java)
+[2026-04-13 18:28:11.268] 信息  [知识库上传] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:70(file:DocumentService.java)
+[2026-04-13 18:28:11.269] 信息  [知识库上传] 文件字节大小: 21208
+											——line:74(file:DocumentService.java)
+[2026-04-13 18:28:11.269] 信息  [知识库解析] 使用 Tika 解析文件: 公司录.docx
+											——line:159(file:DocumentService.java)
+[2026-04-13 18:28:12.044] 信息  [知识库切片] 文件 公司录.docx 共切出片段数: 4
+											——line:80(file:DocumentService.java)
+[2026-04-13 18:28:12.046] 信息  [知识库切片] 第 1 片长度: 699，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:28:12.555] 信息  [向量写入] 第 1 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:28:12.574] 信息  [向量写入] 第 1 片 Redis 返回文档ID: 066a3fa3-5b2e-4043-956c-b3e1ba658173
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:28:12.575] 信息  [向量写入] 第 1 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:28:12.580] 信息  [向量自检] 第 1 片 Redis 写后即查命中数: 1
+											——line:108(file:DocumentService.java)
+[2026-04-13 18:28:12.582] 信息  [向量自检] 第 1 片 Redis 回查相似度: 1.0，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信...
+											——line:112(file:DocumentService.java)
+[2026-04-13 18:28:12.583] 信息  [向量自检] 第 1 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:28:12.584] 信息  [向量自检] 第 1 片 Memory 回查相似度: 1.0，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信...
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:28:12.584] 信息  [知识库切片] 第 2 片长度: 689，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:28:12.728] 信息  [向量写入] 第 2 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:28:12.731] 信息  [向量写入] 第 2 片 Redis 返回文档ID: 2ed5048c-190c-4efc-a5bb-4329cba80884
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:28:12.731] 信息  [向量写入] 第 2 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:28:12.733] 信息  [向量自检] 第 2 片 Redis 写后即查命中数: 1
+											——line:108(file:DocumentService.java)
+[2026-04-13 18:28:12.734] 信息  [向量自检] 第 2 片 Redis 回查相似度: 1.0，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长...
+											——line:112(file:DocumentService.java)
+[2026-04-13 18:28:12.734] 信息  [向量自检] 第 2 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:28:12.734] 信息  [向量自检] 第 2 片 Memory 回查相似度: 1.0，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长...
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:28:12.735] 信息  [知识库切片] 第 3 片长度: 603，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:28:12.894] 信息  [向量写入] 第 3 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:28:12.896] 信息  [向量写入] 第 3 片 Redis 返回文档ID: c34ae845-3b63-40bb-a69c-1fba112a4fcc
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:28:12.897] 信息  [向量写入] 第 3 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:28:12.898] 信息  [向量自检] 第 3 片 Redis 写后即查命中数: 1
+											——line:108(file:DocumentService.java)
+[2026-04-13 18:28:12.899] 信息  [向量自检] 第 3 片 Redis 回查相似度: 1.0000000596046448，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）...
+											——line:112(file:DocumentService.java)
+[2026-04-13 18:28:12.899] 信息  [向量自检] 第 3 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:28:12.899] 信息  [向量自检] 第 3 片 Memory 回查相似度: 1.0，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）...
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:28:12.899] 信息  [知识库切片] 第 4 片长度: 101，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:90(file:DocumentService.java)
+[2026-04-13 18:28:13.027] 信息  [向量写入] 第 4 片开始双写向量存储
+											——line:94(file:DocumentService.java)
+[2026-04-13 18:28:13.030] 信息  [向量写入] 第 4 片 Redis 返回文档ID: df8162ae-06c5-4f43-8b20-3247022cbc36
+											——line:98(file:DocumentService.java)
+[2026-04-13 18:28:13.030] 信息  [向量写入] 第 4 片双写完成
+											——line:102(file:DocumentService.java)
+[2026-04-13 18:28:13.032] 信息  [向量自检] 第 4 片 Redis 写后即查命中数: 1
+											——line:108(file:DocumentService.java)
+[2026-04-13 18:28:13.032] 信息  [向量自检] 第 4 片 Redis 回查相似度: 0.9999999701976776，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:112(file:DocumentService.java)
+[2026-04-13 18:28:13.033] 信息  [向量自检] 第 4 片 Memory 写后即查命中数: 1
+											——line:126(file:DocumentService.java)
+[2026-04-13 18:28:13.033] 信息  [向量自检] 第 4 片 Memory 回查相似度: 1.0，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:130(file:DocumentService.java)
+[2026-04-13 18:28:13.036] 信息  [知识库上传] 文件已落盘，路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx
+											——line:139(file:DocumentService.java)
+[2026-04-13 18:28:13.036] 信息  [知识库上传] 文件处理完成: 公司录.docx，总片段数: 4
+											——line:143(file:DocumentService.java)
+[2026-04-13 18:28:32.993] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 18:28:32.998] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=2048
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 18:28:33.037] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 18:28:33.038] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 18:28:45.195] 信息  [RAG问答] 开始流式问答，问题: 帮我查一下普通员工转正后月薪总额
+											——line:84(file:RagService.java)
+[2026-04-13 18:28:45.195] 信息  [RAG检索] 开始查询知识库，问题: 帮我查一下普通员工转正后月薪总额
+											——line:120(file:RagService.java)
+[2026-04-13 18:28:45.196] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:122(file:RagService.java)
+[2026-04-13 18:28:45.196] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 18:28:45.196] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 18:28:45.197] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:134(file:RagService.java)
+[2026-04-13 18:28:45.197] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx
+											——line:140(file:RagService.java)
+[2026-04-13 18:28:45.595] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:151(file:RagService.java)
+[2026-04-13 18:28:45.603] 信息  [RAG检索] Redis 命中片段数: 4
+											——line:155(file:RagService.java)
+[2026-04-13 18:28:45.605] 信息  [RAG检索] Memory 命中片段数: 0
+											——line:159(file:RagService.java)
+[2026-04-13 18:28:45.606] 警告  [RAG检索] Redis 与 Memory 都没有命中任何知识库片段
+											——line:181(file:RagService.java)
+[2026-04-13 18:28:45.606] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。当前知识库中还没有可用的检索片段。  [问题] 帮我查一下普通员工转正后月薪总额  请使用中文回答，并明确说明当前回答未引用到知识库内容。
+											——line:88(file:RagService.java)
+[2026-04-13 18:28:57.976] 信息  [RAG问答] 收到流式分段: 根据
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.118] 信息  [RAG问答] 收到流式分段: 当前
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.174] 信息  [RAG问答] 收到流式分段: 查询
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.228] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.229] 信息  [RAG问答] 收到流式分段: 我
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.283] 信息  [RAG问答] 收到流式分段: 无法
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.283] 信息  [RAG问答] 收到流式分段: 从
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.339] 信息  [RAG问答] 收到流式分段: 企业
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.402] 信息  [RAG问答] 收到流式分段: 知识
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.403] 信息  [RAG问答] 收到流式分段: 库
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.449] 信息  [RAG问答] 收到流式分段: 中
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.450] 信息  [RAG问答] 收到流式分段: 获取
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.508] 信息  [RAG问答] 收到流式分段: 相关信息
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.562] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.619] 信息  [RAG问答] 收到流式分段: 因为
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.620] 信息  [RAG问答] 收到流式分段: 知识
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.677] 信息  [RAG问答] 收到流式分段: 库
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.678] 信息  [RAG问答] 收到流式分段: 中
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.733] 信息  [RAG问答] 收到流式分段: 暂无
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.786] 信息  [RAG问答] 收到流式分段: 相关的
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.842] 信息  [RAG问答] 收到流式分段: 检索
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.843] 信息  [RAG问答] 收到流式分段: 片段
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.898] 信息  [RAG问答] 收到流式分段: 可供
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:58.899] 信息  [RAG问答] 收到流式分段: 引用
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.100] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.101] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.101] 信息  [RAG问答] 收到流式分段: 关于
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.102] 信息  [RAG问答] 收到流式分段: 普通
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.103] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.103] 信息  [RAG问答] 收到流式分段: 转
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.123] 信息  [RAG问答] 收到流式分段: 正
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.124] 信息  [RAG问答] 收到流式分段: 后的
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.188] 信息  [RAG问答] 收到流式分段: 月
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.188] 信息  [RAG问答] 收到流式分段: 薪
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.233] 信息  [RAG问答] 收到流式分段: 总额
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.234] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.289] 信息  [RAG问答] 收到流式分段: 通常
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.347] 信息  [RAG问答] 收到流式分段: 需
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.405] 信息  [RAG问答] 收到流式分段: 根据
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.497] 信息  [RAG问答] 收到流式分段: 公司的
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.515] 信息  [RAG问答] 收到流式分段: 具体
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.516] 信息  [RAG问答] 收到流式分段: 薪酬
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.570] 信息  [RAG问答] 收到流式分段: 政策
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.571] 信息  [RAG问答] 收到流式分段: 、
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.626] 信息  [RAG问答] 收到流式分段: 岗位
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.627] 信息  [RAG问答] 收到流式分段: 级别
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.687] 信息  [RAG问答] 收到流式分段: 、
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.688] 信息  [RAG问答] 收到流式分段: 地区
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.768] 信息  [RAG问答] 收到流式分段: 及
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.769] 信息  [RAG问答] 收到流式分段: 行业
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.809] 信息  [RAG问答] 收到流式分段: 标准
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.809] 信息  [RAG问答] 收到流式分段: 等因素
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.852] 信息  [RAG问答] 收到流式分段: 确定
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.852] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.906] 信息  [RAG问答] 收到流式分段: 建议
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.907] 信息  [RAG问答] 收到流式分段: 您
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.964] 信息  [RAG问答] 收到流式分段: ：
+											——line:95(file:RagService.java)
+[2026-04-13 18:28:59.964] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.017] 信息  [RAG问答] 收到流式分段: 1
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.018] 信息  [RAG问答] 收到流式分段: .
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.072] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.073] 信息  [RAG问答] 收到流式分段: 查阅
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.135] 信息  [RAG问答] 收到流式分段: 公司
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.136] 信息  [RAG问答] 收到流式分段: 内部的
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.231] 信息  [RAG问答] 收到流式分段: 《
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.232] 信息  [RAG问答] 收到流式分段: 薪酬
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.238] 信息  [RAG问答] 收到流式分段: 管理制度
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.238] 信息  [RAG问答] 收到流式分段: 》
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.294] 信息  [RAG问答] 收到流式分段: 或
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.294] 信息  [RAG问答] 收到流式分段: 《
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.348] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.349] 信息  [RAG问答] 收到流式分段: 手册
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.404] 信息  [RAG问答] 收到流式分段: 》；
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.404] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.463] 信息  [RAG问答] 收到流式分段: 2
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.463] 信息  [RAG问答] 收到流式分段: .
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.516] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.517] 信息  [RAG问答] 收到流式分段: 咨询
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.581] 信息  [RAG问答] 收到流式分段: 人力资源
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.581] 信息  [RAG问答] 收到流式分段: 部门
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.630] 信息  [RAG问答] 收到流式分段: 或
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.630] 信息  [RAG问答] 收到流式分段: 直属
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.689] 信息  [RAG问答] 收到流式分段: 上级
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.690] 信息  [RAG问答] 收到流式分段: ；
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.736] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.736] 信息  [RAG问答] 收到流式分段: 3
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.794] 信息  [RAG问答] 收到流式分段: .
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.795] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.931] 信息  [RAG问答] 收到流式分段: 参考
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.931] 信息  [RAG问答] 收到流式分段: 劳动合同
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.932] 信息  [RAG问答] 收到流式分段: 或
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.965] 信息  [RAG问答] 收到流式分段: 转
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:00.966] 信息  [RAG问答] 收到流式分段: 正
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.021] 信息  [RAG问答] 收到流式分段: 协议
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.022] 信息  [RAG问答] 收到流式分段: 中的
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.076] 信息  [RAG问答] 收到流式分段: 约定
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.077] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.127] 信息  [RAG问答] 收到流式分段: 
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.128] 信息  [RAG问答] 收到流式分段: 如需
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.185] 信息  [RAG问答] 收到流式分段: 进一步
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.186] 信息  [RAG问答] 收到流式分段: 协助
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.243] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.244] 信息  [RAG问答] 收到流式分段: 请
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.293] 信息  [RAG问答] 收到流式分段: 补充
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.350] 信息  [RAG问答] 收到流式分段: 更多
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.408] 信息  [RAG问答] 收到流式分段: 背景
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.409] 信息  [RAG问答] 收到流式分段: 信息
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.464] 信息  [RAG问答] 收到流式分段: 或
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.465] 信息  [RAG问答] 收到流式分段: 联系
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.521] 信息  [RAG问答] 收到流式分段: 相关人员
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.576] 信息  [RAG问答] 收到流式分段: 获取
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.577] 信息  [RAG问答] 收到流式分段: 具体
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.632] 信息  [RAG问答] 收到流式分段: 政策
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.632] 信息  [RAG问答] 收到流式分段: 细节
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.688] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 18:29:01.689] 信息  [RAG问答] 流式问答完成
+											——line:102(file:RagService.java)
+[2026-04-13 18:31:24.110] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 18:31:24.116] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=2048
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 18:31:24.162] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 18:31:24.163] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 18:31:30.828] 信息  [RAG问答] 开始流式问答，问题: 帮我查一下普通员工转正后月薪总额
+											——line:84(file:RagService.java)
+[2026-04-13 18:31:30.829] 信息  [RAG检索] 开始查询知识库，问题: 帮我查一下普通员工转正后月薪总额
+											——line:120(file:RagService.java)
+[2026-04-13 18:31:30.829] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:122(file:RagService.java)
+[2026-04-13 18:31:30.830] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 18:31:30.830] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 18:31:30.830] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:134(file:RagService.java)
+[2026-04-13 18:31:30.831] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx
+											——line:140(file:RagService.java)
+[2026-04-13 18:31:31.316] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:151(file:RagService.java)
+[2026-04-13 18:31:31.325] 信息  [RAG检索] Redis 命中片段数: 4
+											——line:155(file:RagService.java)
+[2026-04-13 18:31:31.326] 信息  [RAG检索] Memory 命中片段数: 0
+											——line:159(file:RagService.java)
+[2026-04-13 18:31:31.327] 信息  [RAG检索] 最终采用第 1 片，相似度: 0.777911901474，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期...
+											——line:169(file:RagService.java)
+[2026-04-13 18:31:31.328] 信息  [RAG检索] 最终采用第 2 片，相似度: 0.760762155056，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信用原则，提交的所有个人信息（学历、工作经历、健康状况等）必须真实有效。如有虚假，公司可立即解除劳动合同且不支付经济补偿。 第二章 考勤与休假 第3条 工作时间 ...
+											——line:169(file:RagService.java)
+[2026-04-13 18:31:31.328] 信息  [RAG检索] 最终采用第 3 片，相似度: 0.7366815805435001，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:169(file:RagService.java)
+[2026-04-13 18:31:31.328] 信息  [RAG检索] 最终采用第 4 片，相似度: 0.7362246513365001，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议...
+											——line:169(file:RagService.java)
+[2026-04-13 18:31:31.329] 信息  [RAG检索] 拼接后的上下文预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧哗、吸烟（指定区域除外）。违反者首次警告，再次发现每次罚款50元，当月累...
+											——line:189(file:RagService.java)
+[2026-04-13 18:31:31.329] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。结合下列检索到的上下文回答用户问题。  [上下文] · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧...
+											——line:88(file:RagService.java)
+[2026-04-13 18:31:43.685] 信息  [RAG问答] 收到流式分段: 根据
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:43.834] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:43.974] 信息  [RAG问答] 收到流式分段: ，
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:43.975] 信息  [RAG问答] 收到流式分段: 普通
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:43.975] 信息  [RAG问答] 收到流式分段: 员工
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:43.976] 信息  [RAG问答] 收到流式分段: 转
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.001] 信息  [RAG问答] 收到流式分段: 正
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.002] 信息  [RAG问答] 收到流式分段: 后
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.059] 信息  [RAG问答] 收到流式分段: 月
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.059] 信息  [RAG问答] 收到流式分段: 薪
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.119] 信息  [RAG问答] 收到流式分段: 总额
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.119] 信息  [RAG问答] 收到流式分段: 为
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.173] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.228] 信息  [RAG问答] 收到流式分段: 500
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.229] 信息  [RAG问答] 收到流式分段: 0
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.285] 信息  [RAG问答] 收到流式分段: 元
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.286] 信息  [RAG问答] 收到流式分段: （
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.350] 信息  [RAG问答] 收到流式分段: 税前
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.350] 信息  [RAG问答] 收到流式分段: ）
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.401] 信息  [RAG问答] 收到流式分段: **
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.402] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.456] 信息  [RAG问答] 收到流式分段: 该
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.457] 信息  [RAG问答] 收到流式分段: 信息
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.909] 信息  [RAG问答] 收到流式分段: 在
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.910] 信息  [RAG问答] 收到流式分段: 第三章
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.910] 信息  [RAG问答] 收到流式分段: 第
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.910] 信息  [RAG问答] 收到流式分段: 8
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.911] 信息  [RAG问答] 收到流式分段: 条
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.911] 信息  [RAG问答] 收到流式分段: “
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.912] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.912] 信息  [RAG问答] 收到流式分段: 结构
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.912] 信息  [RAG问答] 收到流式分段: ”
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.913] 信息  [RAG问答] 收到流式分段: 中
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.913] 信息  [RAG问答] 收到流式分段: 明确
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.913] 信息  [RAG问答] 收到流式分段: 列出
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.914] 信息  [RAG问答] 收到流式分段: 。
+											——line:95(file:RagService.java)
+[2026-04-13 18:31:44.914] 信息  [RAG问答] 流式问答完成
+											——line:102(file:RagService.java)
+[2026-04-13 20:09:48.708] 信息  [向量存储初始化] Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:142(file:OpenAiConfig.java)
+[2026-04-13 20:09:48.713] 信息  [向量存储初始化] host=192.168.10.100，port=6379，user=default，indexName=ai_service_embedding_index，prefix=embedding:，dimension=2048
+											——line:100(file:OpenAiConfig.java)
+[2026-04-13 20:09:48.759] 信息  [向量存储初始化] langchain4j-redis 0.31.0 默认前缀为 embedding:，当前配置前缀=embedding:
+											——line:119(file:OpenAiConfig.java)
+[2026-04-13 20:09:48.759] 信息  [向量存储初始化] Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:130(file:OpenAiConfig.java)
+[2026-04-13 20:10:12.813] 信息  [RAG问答] 开始流式问答，问题: 上班时间是怎样的
+											——line:85(file:RagService.java)
+[2026-04-13 20:10:12.814] 信息  [RAG检索] 开始查询知识库，问题: 上班时间是怎样的
+											——line:122(file:RagService.java)
+[2026-04-13 20:10:12.814] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 20:10:12.814] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 20:10:12.815] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:128(file:RagService.java)
+[2026-04-13 20:10:12.827] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:136(file:RagService.java)
+[2026-04-13 20:10:12.827] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx
+											——line:142(file:RagService.java)
+[2026-04-13 20:10:24.420] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:153(file:RagService.java)
+[2026-04-13 20:10:24.429] 信息  [RAG检索] Redis 命中片段数: 4
+											——line:157(file:RagService.java)
+[2026-04-13 20:10:24.431] 信息  [RAG检索] Memory 命中片段数: 0
+											——line:161(file:RagService.java)
+[2026-04-13 20:10:24.432] 信息  [RAG检索] 最终采用第 1 片，相似度: 0.716365337372，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期...
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:24.433] 信息  [RAG检索] 最终采用第 2 片，相似度: 0.716051518917，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议...
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:24.433] 信息  [RAG检索] 最终采用第 3 片，相似度: 0.7055963277815，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信用原则，提交的所有个人信息（学历、工作经历、健康状况等）必须真实有效。如有虚假，公司可立即解除劳动合同且不支付经济补偿。 第二章 考勤与休假 第3条 工作时间 ...
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:24.433] 信息  [RAG检索] 最终采用第 4 片，相似度: 0.701070666313，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:24.434] 信息  [RAG检索] 拼接后的上下文预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧哗、吸烟（指定区域除外）。违反者首次警告，再次发现每次罚款50元，当月累...
+											——line:191(file:RagService.java)
+[2026-04-13 20:10:24.435] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。结合下列检索到的上下文回答用户问题。  [上下文] · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧...
+											——line:89(file:RagService.java)
+[2026-04-13 20:10:25.827] 信息  [RAG问答] 收到流式分段: 根据
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.885] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.886] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.887] 信息  [RAG问答] 收到流式分段: 公司
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.887] 信息  [RAG问答] 收到流式分段: 实行
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.887] 信息  [RAG问答] 收到流式分段: 标准
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.888] 信息  [RAG问答] 收到流式分段: 工时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.888] 信息  [RAG问答] 收到流式分段: 制
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.889] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.889] 信息  [RAG问答] 收到流式分段: 具体
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:26.890] 信息  [RAG问答] 收到流式分段: 上班
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.044] 信息  [RAG问答] 收到流式分段: 时间为
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.045] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.045] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.046] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.047] 信息  [RAG问答] 收到流式分段:  **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.047] 信息  [RAG问答] 收到流式分段: 每日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.048] 信息  [RAG问答] 收到流式分段: 工作
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.048] 信息  [RAG问答] 收到流式分段: 8
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.049] 信息  [RAG问答] 收到流式分段: 小时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.049] 信息  [RAG问答] 收到流式分段: **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.110] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.111] 信息  [RAG问答] 收到流式分段: 上午
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.179] 信息  [RAG问答] 收到流式分段: 9
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.253] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.254] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.332] 信息  [RAG问答] 收到流式分段: 至
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.333] 信息  [RAG问答] 收到流式分段: 12
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.402] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.403] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.608] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.608] 信息  [RAG问答] 收到流式分段: 下午
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.611] 信息  [RAG问答] 收到流式分段: 13
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.611] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.626] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.626] 信息  [RAG问答] 收到流式分段: 至
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.697] 信息  [RAG问答] 收到流式分段: 18
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.698] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.773] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.773] 信息  [RAG问答] 收到流式分段: （
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.850] 信息  [RAG问答] 收到流式分段: 中间
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.921] 信息  [RAG问答] 收到流式分段: 休息
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.922] 信息  [RAG问答] 收到流式分段: 1
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.995] 信息  [RAG问答] 收到流式分段: 小时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:27.996] 信息  [RAG问答] 收到流式分段: ）。
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.066] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.066] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.154] 信息  [RAG问答] 收到流式分段:  **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.155] 信息  [RAG问答] 收到流式分段: 每周
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.373] 信息  [RAG问答] 收到流式分段: 工作
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.374] 信息  [RAG问答] 收到流式分段: 5
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.374] 信息  [RAG问答] 收到流式分段: 天
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.375] 信息  [RAG问答] 收到流式分段: **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.375] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.376] 信息  [RAG问答] 收到流式分段: 周一
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.436] 信息  [RAG问答] 收到流式分段: 至
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.437] 信息  [RAG问答] 收到流式分段: 周五
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.510] 信息  [RAG问答] 收到流式分段: 。
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.511] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.584] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.585] 信息  [RAG问答] 收到流式分段:  **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.657] 信息  [RAG问答] 收到流式分段: 休息
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.658] 信息  [RAG问答] 收到流式分段: 日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.734] 信息  [RAG问答] 收到流式分段: **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.734] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.805] 信息  [RAG问答] 收到流式分段: 周六
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.806] 信息  [RAG问答] 收到流式分段: 、
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.883] 信息  [RAG问答] 收到流式分段: 周日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.883] 信息  [RAG问答] 收到流式分段: 。
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.951] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:28.952] 信息  [RAG问答] 收到流式分段: （
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.045] 信息  [RAG问答] 收到流式分段: 注
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.046] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.098] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.099] 信息  [RAG问答] 收到流式分段: 第三章
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.176] 信息  [RAG问答] 收到流式分段: 第
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.177] 信息  [RAG问答] 收到流式分段: 8
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.245] 信息  [RAG问答] 收到流式分段: 条
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.245] 信息  [RAG问答] 收到流式分段: 提到
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.323] 信息  [RAG问答] 收到流式分段: “
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.324] 信息  [RAG问答] 收到流式分段: 每日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.583] 信息  [RAG问答] 收到流式分段: 工作
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.584] 信息  [RAG问答] 收到流式分段: 4
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.586] 信息  [RAG问答] 收到流式分段: 小时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.587] 信息  [RAG问答] 收到流式分段: ”
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.588] 信息  [RAG问答] 收到流式分段: 疑似
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.627] 信息  [RAG问答] 收到流式分段: 笔
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.628] 信息  [RAG问答] 收到流式分段: 误
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.719] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.719] 信息  [RAG问答] 收到流式分段: 结合
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.780] 信息  [RAG问答] 收到流式分段: 常规
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.871] 信息  [RAG问答] 收到流式分段: 工时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:29.929] 信息  [RAG问答] 收到流式分段: 及
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.004] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.004] 信息  [RAG问答] 收到流式分段: 其他
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.095] 信息  [RAG问答] 收到流式分段: 条款
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.096] 信息  [RAG问答] 收到流式分段: （
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.154] 信息  [RAG问答] 收到流式分段: 如
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.155] 信息  [RAG问答] 收到流式分段: 加班
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.308] 信息  [RAG问答] 收到流式分段: 计算
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.309] 信息  [RAG问答] 收到流式分段: 基准
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.310] 信息  [RAG问答] 收到流式分段: ），
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.381] 信息  [RAG问答] 收到流式分段: 实际
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.383] 信息  [RAG问答] 收到流式分段: 应为
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.450] 信息  [RAG问答] 收到流式分段: 每日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.451] 信息  [RAG问答] 收到流式分段: 8
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.542] 信息  [RAG问答] 收到流式分段: 小时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.543] 信息  [RAG问答] 收到流式分段: 、
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.601] 信息  [RAG问答] 收到流式分段: 每周
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.601] 信息  [RAG问答] 收到流式分段: 5
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.674] 信息  [RAG问答] 收到流式分段: 天
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.675] 信息  [RAG问答] 收到流式分段: 制
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.749] 信息  [RAG问答] 收到流式分段: 。）
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:30.750] 信息  [RAG问答] 流式问答完成
+											——line:103(file:RagService.java)
+[2026-04-13 20:10:51.433] 信息  [RAG问答] 开始流式问答，问题: 上班时间是怎么样的
+											——line:85(file:RagService.java)
+[2026-04-13 20:10:51.434] 信息  [RAG检索] 开始查询知识库，问题: 上班时间是怎么样的
+											——line:122(file:RagService.java)
+[2026-04-13 20:10:51.434] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 20:10:51.434] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 20:10:51.434] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:128(file:RagService.java)
+[2026-04-13 20:10:51.435] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:136(file:RagService.java)
+[2026-04-13 20:10:51.435] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx
+											——line:142(file:RagService.java)
+[2026-04-13 20:10:51.718] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:153(file:RagService.java)
+[2026-04-13 20:10:51.723] 信息  [RAG检索] Redis 命中片段数: 4
+											——line:157(file:RagService.java)
+[2026-04-13 20:10:51.724] 信息  [RAG检索] Memory 命中片段数: 0
+											——line:161(file:RagService.java)
+[2026-04-13 20:10:51.724] 信息  [RAG检索] 最终采用第 1 片，相似度: 0.7212888002394999，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议...
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:51.724] 信息  [RAG检索] 最终采用第 2 片，相似度: 0.717043399811，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期...
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:51.724] 信息  [RAG检索] 最终采用第 3 片，相似度: 0.7082239091395，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信用原则，提交的所有个人信息（学历、工作经历、健康状况等）必须真实有效。如有虚假，公司可立即解除劳动合同且不支付经济补偿。 第二章 考勤与休假 第3条 工作时间 ...
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:51.724] 信息  [RAG检索] 最终采用第 4 片，相似度: 0.70458355546，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:171(file:RagService.java)
+[2026-04-13 20:10:51.725] 信息  [RAG检索] 拼接后的上下文预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议、节约成本、避免重大损失等）的员工，给予通报表扬并发放一次性奖金（200-2000元）。年度绩效优秀者，可获额外奖金或晋升机会。 第17条 违纪处分 根据违纪严重程度，采取以下处分层级： 1. 口头警告：一般性违规。 2. 书面警告：同类错误再次发生或情节稍重者，同时处以50-200元罚款。 3. 记过：严重违纪但未达到解雇程度，取消当年评优资格。 4. 解除劳动合同：严重违反本制度（如连续旷工3天或累计旷工5天、偷窃、严重泄密等），依法无偿解雇。 第18条 申诉渠道 员工对处分或考核结果有异议，可在5个工作日内向人力资源部提交书面申诉。公司将在7个工作日内组织复核并给予答复。 第六章 安全与...
+											——line:191(file:RagService.java)
+[2026-04-13 20:10:51.725] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。结合下列检索到的上下文回答用户问题。  [上下文] 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议、节约成本、避免重大损失等）的员工，给予通报表扬并发放一次性奖金（200-2000元）。年度绩效优秀者，可获额外奖金或晋升机会。 第17条 违纪处分 根据违纪严重程度，采取以下处分层级： 1. 口头警告：一般性违规。 2. 书面警告：同类错误再次发生或情节稍重者，同时处以50-200元罚款。 3. 记过：严重违纪但未达到解雇程度，取消当年评优资格。 4. 解除劳动合同：严重违反本制度（如连续旷工3天或累计旷工5天、偷窃、严重泄密等），依法无偿解雇。 第18条 申诉渠道 员工对处分或考核结果有异议，可在5个工作日内向人力资源...
+											——line:89(file:RagService.java)
+[2026-04-13 20:10:53.481] 信息  [RAG问答] 收到流式分段: 根据
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:53.766] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:53.835] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:53.836] 信息  [RAG问答] 收到流式分段: 公司
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:53.901] 信息  [RAG问答] 收到流式分段: 实行
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:53.902] 信息  [RAG问答] 收到流式分段: 标准
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:53.975] 信息  [RAG问答] 收到流式分段: 工时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:53.976] 信息  [RAG问答] 收到流式分段: 制
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.097] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.124] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.125] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.196] 信息  [RAG问答] 收到流式分段:  **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.197] 信息  [RAG问答] 收到流式分段: 每日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.271] 信息  [RAG问答] 收到流式分段: 工作时间
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.271] 信息  [RAG问答] 收到流式分段: **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.344] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.344] 信息  [RAG问答] 收到流式分段: 9
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.417] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.417] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.541] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.542] 信息  [RAG问答] 收到流式分段: 12
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.597] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.597] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.635] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.635] 信息  [RAG问答] 收到流式分段: 13
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.709] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.710] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.814] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.814] 信息  [RAG问答] 收到流式分段: 18
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.865] 信息  [RAG问答] 收到流式分段: :
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.865] 信息  [RAG问答] 收到流式分段: 00
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.933] 信息  [RAG问答] 收到流式分段: （
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:54.934] 信息  [RAG问答] 收到流式分段: 总计
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.115] 信息  [RAG问答] 收到流式分段: 8
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.116] 信息  [RAG问答] 收到流式分段: 小时
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.116] 信息  [RAG问答] 收到流式分段: ）。
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.116] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.152] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.152] 信息  [RAG问答] 收到流式分段:  **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.236] 信息  [RAG问答] 收到流式分段: 每周
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.236] 信息  [RAG问答] 收到流式分段: 工作
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.302] 信息  [RAG问答] 收到流式分段: 天数
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.302] 信息  [RAG问答] 收到流式分段: **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.390] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.390] 信息  [RAG问答] 收到流式分段: 周一
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.462] 信息  [RAG问答] 收到流式分段: 至
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.463] 信息  [RAG问答] 收到流式分段: 周五
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.533] 信息  [RAG问答] 收到流式分段: （
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.533] 信息  [RAG问答] 收到流式分段: 每周
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.592] 信息  [RAG问答] 收到流式分段: 5
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.593] 信息  [RAG问答] 收到流式分段: 天
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.670] 信息  [RAG问答] 收到流式分段: ）。
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.671] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.748] 信息  [RAG问答] 收到流式分段: -
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.748] 信息  [RAG问答] 收到流式分段:  **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.818] 信息  [RAG问答] 收到流式分段: 休息
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.818] 信息  [RAG问答] 收到流式分段: 日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.884] 信息  [RAG问答] 收到流式分段: **
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:55.885] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.062] 信息  [RAG问答] 收到流式分段: 周六
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.063] 信息  [RAG问答] 收到流式分段: 、
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.063] 信息  [RAG问答] 收到流式分段: 周日
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.063] 信息  [RAG问答] 收到流式分段: 。
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.112] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.112] 信息  [RAG问答] 收到流式分段: （
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.177] 信息  [RAG问答] 收到流式分段: 注
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.177] 信息  [RAG问答] 收到流式分段: ：
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.270] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.271] 信息  [RAG问答] 收到流式分段: 第
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.324] 信息  [RAG问答] 收到流式分段: 3
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.325] 信息  [RAG问答] 收到流式分段: 条
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.408] 信息  [RAG问答] 收到流式分段: 明确
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.409] 信息  [RAG问答] 收到流式分段: 规定了
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.502] 信息  [RAG问答] 收到流式分段: 上述
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.541] 信息  [RAG问答] 收到流式分段: 安排
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.626] 信息  [RAG问答] 收到流式分段: 。）
+											——line:96(file:RagService.java)
+[2026-04-13 20:10:56.722] 信息  [RAG问答] 流式问答完成
+											——line:103(file:RagService.java)
+[2026-04-13 20:12:05.303] 信息  [RAG问答] 开始流式问答，问题: 公司最高薪资多少
+											——line:85(file:RagService.java)
+[2026-04-13 20:12:05.303] 信息  [RAG检索] 开始查询知识库，问题: 公司最高薪资多少
+											——line:122(file:RagService.java)
+[2026-04-13 20:12:05.303] 信息  [RAG检索] 当前主 EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:124(file:RagService.java)
+[2026-04-13 20:12:05.304] 信息  [RAG检索] 当前 Redis EmbeddingStore 实现: dev.langchain4j.store.embedding.redis.RedisEmbeddingStore
+											——line:126(file:RagService.java)
+[2026-04-13 20:12:05.304] 信息  [RAG检索] 当前 Memory EmbeddingStore 实现: dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore
+											——line:128(file:RagService.java)
+[2026-04-13 20:12:05.304] 信息  [RAG检索] 当前已登记文档数: 1
+											——line:136(file:RagService.java)
+[2026-04-13 20:12:05.304] 信息  [RAG检索] 文档: 公司录.docx，已切片数: 4，落盘路径: E:\JU\jupiterPC\[backup]木星开发源码或附属\AI企业服务\backend\backend\data\uploads\90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx
+											——line:142(file:RagService.java)
+[2026-04-13 20:12:05.715] 信息  [RAG检索] 问题向量化完成，开始分别查询 Redis 与 Memory
+											——line:153(file:RagService.java)
+[2026-04-13 20:12:05.719] 信息  [RAG检索] Redis 命中片段数: 4
+											——line:157(file:RagService.java)
+[2026-04-13 20:12:05.720] 信息  [RAG检索] Memory 命中片段数: 0
+											——line:161(file:RagService.java)
+[2026-04-13 20:12:05.720] 信息  [RAG检索] 最终采用第 1 片，相似度: 0.7632545530795，预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期...
+											——line:171(file:RagService.java)
+[2026-04-13 20:12:05.720] 信息  [RAG检索] 最终采用第 2 片，相似度: 0.734340071678，预览: 第14条 办公财产管理 公司配发的电脑、工具、钥匙等财产，员工应妥善保管。故意或重大过失造成损坏或丢失的，按原价赔偿。私人物品请自行保管，公司不承担丢失责任。 第15条 仪容仪表与沟通 工作时间内保持整洁得体的仪容仪表（禁止奇装异服、拖鞋）。内部沟通使用普通话，对待同事、客户应礼貌尊重。禁止任何形式的职场欺凌、歧视或骚扰。 第五章 奖惩与考核 第16条 奖励机制 对公司做出突出贡献（如提出有效建议...
+											——line:171(file:RagService.java)
+[2026-04-13 20:12:05.721] 信息  [RAG检索] 最终采用第 3 片，相似度: 0.732361227274，预览: 第一章 总则 第1条 目的与范围 为规范公司管理，保障员工权益，营造公平有序的工作环境，依据国家相关法律法规，制定本制度。本制度适用于公司全体普通员工（月薪5000元档位）。 第2条 诚实信用原则 员工在入职、履职及离职过程中，须恪守诚实信用原则，提交的所有个人信息（学历、工作经历、健康状况等）必须真实有效。如有虚假，公司可立即解除劳动合同且不支付经济补偿。 第二章 考勤与休假 第3条 工作时间 ...
+											——line:171(file:RagService.java)
+[2026-04-13 20:12:05.721] 信息  [RAG检索] 最终采用第 4 片，相似度: 0.7299041748045，预览: 员工离职须提前30日（试用期内提前3日）提交书面辞职报告。离职前需完成工作交接、归还公司财产、结清财务账目。未按程序擅自离职者，公司有权暂缓发放最后一期薪资，直至完成交接，并保留追究由此造成损失的权利。
+											——line:171(file:RagService.java)
+[2026-04-13 20:12:05.722] 信息  [RAG检索] 拼接后的上下文预览: · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧哗、吸烟（指定区域除外）。违反者首次警告，再次发现每次罚款50元，当月累...
+											——line:191(file:RagService.java)
+[2026-04-13 20:12:05.722] 信息  [RAG问答] 流式 Prompt 预览: 你是企业知识库助手。结合下列检索到的上下文回答用户问题。  [上下文] · 岗位津贴：12000元 · 绩效奖金：800元（根据月度考核结果浮动，范围0-800元） 薪资于次月15日通过银行转账发放，遇节假日顺延。公司依法代扣代缴个人所得税及社保、公积金个人部分。 第9条 试用期管理 新入职普通员工的试用期最长为一个半月（45天），试用期薪资不低于转正后月薪的80%（即4000元）。试用期内，公司可依据考核标准评估员工表现；员工也可提前3日通知公司解除劳动合同。试用期满经考核合格者，转为正式员工，享受5000元月薪及相应福利。 第10条 加班工资 因工作需要安排加班的，优先安排调休；无法调休的，按以下标准支付加班工资： · 工作日延长工时：时薪×150%（时薪=5000÷21.75÷8≈28.74元） · 休息日工作：时薪×200% · 法定节假日工作：时薪×300% 加班须提前填写《加班申请表》并获得部门负责人审批，未经审批的“自愿加班”不计入加班工资。 第四章 行为规范与纪律 第11条 工作纪律 工作时间内不得从事与工作无关的事项（如网上购物、游戏、观看视频等）。办公区域禁止大声喧...
+											——line:89(file:RagService.java)
+[2026-04-13 20:12:06.921] 信息  [RAG问答] 收到流式分段: 根据
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.078] 信息  [RAG问答] 收到流式分段: 提供的
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.175] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.176] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.226] 信息  [RAG问答] 收到流式分段: 无法
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.226] 信息  [RAG问答] 收到流式分段: 确定
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.306] 信息  [RAG问答] 收到流式分段: 公司的
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.381] 信息  [RAG问答] 收到流式分段: 最高
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.381] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.447] 信息  [RAG问答] 收到流式分段: 。
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.448] 信息  [RAG问答] 收到流式分段: 
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.627] 信息  [RAG问答] 收到流式分段: 上下文
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.628] 信息  [RAG问答] 收到流式分段: 仅
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.628] 信息  [RAG问答] 收到流式分段: 明确了
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.628] 信息  [RAG问答] 收到流式分段: 普通
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.665] 信息  [RAG问答] 收到流式分段: 员工
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.666] 信息  [RAG问答] 收到流式分段: （
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.733] 信息  [RAG问答] 收到流式分段: 月
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.733] 信息  [RAG问答] 收到流式分段: 薪
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.927] 信息  [RAG问答] 收到流式分段: 500
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.928] 信息  [RAG问答] 收到流式分段: 0
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.928] 信息  [RAG问答] 收到流式分段: 元
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.928] 信息  [RAG问答] 收到流式分段: 档
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.957] 信息  [RAG问答] 收到流式分段: 位
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:07.958] 信息  [RAG问答] 收到流式分段: ）
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.031] 信息  [RAG问答] 收到流式分段: 的
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.032] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.114] 信息  [RAG问答] 收到流式分段: 结构
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.114] 信息  [RAG问答] 收到流式分段: 、
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.171] 信息  [RAG问答] 收到流式分段: 试用
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.171] 信息  [RAG问答] 收到流式分段: 期
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.257] 信息  [RAG问答] 收到流式分段: 规定
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.257] 信息  [RAG问答] 收到流式分段: 及
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.329] 信息  [RAG问答] 收到流式分段: 加班
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.329] 信息  [RAG问答] 收到流式分段: 工资
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.395] 信息  [RAG问答] 收到流式分段: 计算
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.395] 信息  [RAG问答] 收到流式分段: 方式
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.473] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.474] 信息  [RAG问答] 收到流式分段: 未
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.623] 信息  [RAG问答] 收到流式分段: 提及
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.623] 信息  [RAG问答] 收到流式分段: 其他
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.627] 信息  [RAG问答] 收到流式分段: 岗位
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.627] 信息  [RAG问答] 收到流式分段: 或
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.690] 信息  [RAG问答] 收到流式分段: 管理
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.691] 信息  [RAG问答] 收到流式分段: 层的
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.762] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.763] 信息  [RAG问答] 收到流式分段: 范围
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.837] 信息  [RAG问答] 收到流式分段: ，
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.838] 信息  [RAG问答] 收到流式分段: 因此
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.915] 信息  [RAG问答] 收到流式分段: 无法
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.916] 信息  [RAG问答] 收到流式分段: 推断
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.986] 信息  [RAG问答] 收到流式分段: 公司
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:08.986] 信息  [RAG问答] 收到流式分段: 整体
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:09.208] 信息  [RAG问答] 收到流式分段: 最高
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:09.210] 信息  [RAG问答] 收到流式分段: 薪资
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:09.211] 信息  [RAG问答] 收到流式分段: 。
+											——line:96(file:RagService.java)
+[2026-04-13 20:12:09.214] 信息  [RAG问答] 流式问答完成
+											——line:103(file:RagService.java)
