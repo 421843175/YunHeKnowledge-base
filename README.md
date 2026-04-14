@@ -1,267 +1,229 @@
-# AI企业服务
+# AI 企业服务平台
 
-这是一个基于 `Spring Boot + Redis + LangChain4j + Netty + Vue 3` 的企业知识库问答示例项目。
+一个基于 `Vue 3 + Vite`、`Golang Gin` 和 `Spring Boot` 的企业服务平台示例项目。
 
-项目主要包含两部分：
+项目将传统业务系统和 AI 知识库能力拆成两套后端，覆盖企业注册、账户审批、多文件上传、企业知识库、RAG 问答以及 WebSocket 流式响应等功能。
 
-- `backend/`：后端服务，负责文档上传、解析、切片、向量化、RAG 检索和 AI 问答
-- `vuefront/`：前端页面，负责文件上传、知识库状态展示和 WebSocket 流式问答
+## Features
 
-如果你只是想快速了解项目结构和阅读路径，可以先看根目录下的 `NOTICE.md`。
+- `Golang / Spring Boot` 双后端拆分
+- 企业注册与账户审批流程
+- `所有者 / 管理员 / 职工` 角色体系
+- 企业级知识库上传与管理
+- 多文件上传
+- 基于企业私有数据的 RAG 问答
+- WebSocket 流式输出
+- 前端浅色 / 深色模式展示
 
----
+## Screenshots
 
-## 1. 项目功能
 
-当前项目支持以下核心能力：
+### 首页 / 知识库
 
-- 上传企业文档到知识库
-- 使用 Apache Tika 解析文档内容
-- 按固定规则切片并生成向量
-- 向量写入 Redis 和内存存储
-- 用户提问时进行 RAG 检索
-- 通过 DeepSeek 生成中文回答
-- 通过 Netty WebSocket 向前端流式返回回答结果
+![首页 / 知识库](./images/Snipaste_2026-04-14_20-41-10.png)
 
-当前更适合处理：
+### 登录 / 注册
 
-- `pdf`（文字型）
-- `doc` / `docx`
-- `ppt` / `pptx`
-- `md` / `txt` 等文本类文件
+![登录 / 注册](./images/Snipaste_2026-04-14_20-42-42.png)
 
-当前没有额外实现：
+### 企业注册
 
-- OCR 图片识别
-- 扫描版 PDF OCR
-- 音视频转文本
-- 用户历史聊天记忆
+![企业注册](./images/Snipaste_2026-04-14_20-43-05.png)
 
----
+### 个人页 / 账户信息
 
-## 2. 技术栈
+![个人页 / 账户信息](./images/Snipaste_2026-04-14_20-55-30.png)
 
-### 后端
-- Java 17
-- Spring Boot 3
-- LangChain4j
-- Redis
-- Netty
-- OkHttp SSE
-- Apache Tika
+### 账户审批
 
-### 前端
-- Vue 3
-- Vite
+![账户审批](./images/Snipaste_2026-04-14_20-55-44.png)
 
-### 模型与向量能力
-- 聊天模型：DeepSeek
-- Embedding 模型：智谱 `embedding-3`
+### 知识库文件管理
 
----
+![知识库文件管理](./images/Snipaste_2026-04-14_21-04-54.png)
 
-## 3. 目录结构
+### 多文件上传
+
+![多文件上传](./images/Snipaste_2026-04-14_21-06-19.png)
+
+### AI 问答
+
+![AI 问答](./images/Snipaste_2026-04-14_21-14-20.png)
+
+### 浅色 / 深色模式
+
+![浅色 / 深色模式](./images/Snipaste_2026-04-14_22-05-13.png)
+
+## Tech Stack
+
+### Frontend
+
+- `Vue 3`
+- `Vite`
+- `Vue Router`
+- `Axios`
+- `XTerm`
+
+### Backend
+
+#### Business Service
+
+- `Golang`
+- `Gin`
+- `GORM`
+- `MySQL`
+- `JWT`
+- `Redis`
+
+#### AI Service
+
+- `Java 17`
+- `Spring Boot 3`
+- `LangChain4j`
+- `Redis`
+- `Netty`
+- `Apache Tika`
+- `OkHttp SSE`
+
+### Model
+
+- Chat Model: `DeepSeek`
+- Embedding Model: `智谱 embedding-3`
+
+## Project Structure
 
 ```text
 AI企业服务/
-├─ backend/                     # Spring Boot 后端
-│  ├─ src/main/java/            # Java 源码
-│  ├─ src/main/resources/       # 配置文件
-│  ├─ backend/data/uploads/     # 上传文件落盘目录
-│  ├─ backend/data/knowledge-metadata.json
-│  └─ pom.xml
-├─ vuefront/                    # Vue 前端
-│  ├─ src/
-│  ├─ package.json
-│  └─ vite.config.js
-├─ NOTICE.md                    # 项目辅助阅读说明
-└─ README.md                    # 当前说明文件
+├─ backend/              # Spring Boot AI 知识库后端
+├─ ginbackend/           # Golang Gin 业务后端
+├─ vuefront/             # Vue 3 前端
+├─ images/               # README 截图资源
+├─ NOTICE.md             # 项目阅读辅助说明
+└─ README.md
 ```
 
----
+## Modules
 
-## 4. 核心流程概览
+### `ginbackend/`
 
-### 4.1 文档上传入库流程
-1. 前端调用 `POST /api/docs/upload`
-2. 后端 `DocController.upload(...)` 接收文件
-3. `DocumentService.indexFile(...)` 处理单个文件
-4. 使用 Apache Tika 解析文档
-5. 使用 `recursive(700, 150)` 规则切片
-6. 对每个片段生成 embedding
-7. 写入 Redis 和内存向量库
-8. 原始文件保存到本地，元信息写入 `knowledge-metadata.json`
+负责业务系统能力：
 
-### 4.2 用户提问检索流程
-1. 前端通过 HTTP 或 WebSocket 发送问题
-2. `RagService.buildPrompt(...)` 先把问题向量化
-3. 先查 Redis 向量库，再查内存向量库
-4. 优先使用 Redis 命中结果，空了再回退内存结果
-5. 将命中的文本片段拼接成上下文
-6. 把上下文和用户问题一起交给大模型
-7. 返回答案给前端
+- 企业创建
+- 企业列表查询
+- 用户注册 / 登录
+- 待审批账户查询
+- 账户审批
+- JWT 鉴权
 
-### 4.3 Netty WebSocket 流式流程
-1. Netty 启动并监听 `/ws/chat`
-2. 前端建立 WebSocket 连接
-3. 握手完成后后端发 `system` 消息
-4. 前端收到 `system` 后发送 `user` 消息
-5. 后端调用 `RagService.streamAnswer(...)`
-6. DeepSeek SSE 流式返回 token
-7. 后端把 token 转成 `chunk` 消息推给前端
-8. 完成后发 `done`，异常时发 `error`
+### `backend/`
 
----
+负责 AI 知识库能力：
 
-## 5. 关键文件
+- 文件上传
+- 多文件处理
+- 文档解析与切片
+- 向量化与检索
+- 文件统计 / 下载 / 删除
+- HTTP 问答
+- WebSocket 流式问答
 
-如果只想快速抓主线，建议优先看这些文件：
+### `vuefront/`
 
-- `backend/src/main/resources/application.yml`
-- `backend/src/main/java/com/company/aiservice/config/OpenAiConfig.java`
-- `backend/src/main/java/com/company/aiservice/controller/DocController.java`
-- `backend/src/main/java/com/company/aiservice/service/DocumentService.java`
-- `backend/src/main/java/com/company/aiservice/service/RagService.java`
-- `backend/src/main/java/com/company/aiservice/config/NettyWebSocketConfig.java`
-- `backend/src/main/java/com/company/aiservice/netty/ChatWebSocketHandler.java`
-- `backend/src/main/java/com/company/aiservice/service/DeepSeekStreamingService.java`
-- `vuefront/src/App.vue`
-- `NOTICE.md`
+负责前端页面与交互：
 
----
+- 登录 / 注册 / 注册企业
+- 个人页与待审批通知
+- 知识库上传与问答交互
+- 浅色 / 深色模式展示
 
-## 6. 默认配置
+## Core Flow
 
-当前源码中的默认配置如下：
+### 1. 企业创建
 
-- 后端 HTTP：`http://127.0.0.1:8082`
-- WebSocket：`ws://127.0.0.1:8083/ws/chat`
-- 上传目录：`backend/data/uploads`
-- 元信息文件：`backend/data/knowledge-metadata.json`
+1. 前端提交企业信息与所有者账户信息
+2. Go 后端创建企业档案
+3. 自动创建企业所有者账号
+4. 返回 token，进入个人页
 
-请注意：
+### 2. 用户注册与审批
 
-- 当前 `application.yml` 中包含模型 API Key 和 Redis 连接信息
-- 如果用于正式环境，建议改为环境变量或私有配置文件，不要直接写死在仓库中
+1. 用户选择已有企业并提交注册
+2. 系统创建待审核账户
+3. 管理员或所有者查看待审批列表
+4. 对申请进行通过或驳回
+5. 审批通过后账号可登录
 
----
+### 3. 知识库上传
 
-## 7. 本地启动方式
+1. 用户登录后上传一个或多个文件
+2. Java 后端接收 `MultipartFile[]`
+3. 解析文档并切片
+4. 生成 Embedding
+5. 写入企业向量存储并保存元数据
 
-### 7.1 启动后端
-在 `backend/` 目录执行：
+### 4. RAG 问答
+
+1. 用户发起问题
+2. 后端对问题向量化
+3. 在当前企业知识库中检索相关片段
+4. 拼接上下文构造 Prompt
+5. 调用模型生成答案
+6. 通过 HTTP 或 WebSocket 返回前端
+
+## API Overview
+
+### Business API
+
+- `POST /api/v1/enterprises/apply`
+- `GET /api/v1/enterprises/list`
+- `POST /api/v1/users/register`
+- `POST /api/v1/users/login`
+- `GET /api/v1/users/audit/pending`
+- `POST /api/v1/users/audit`
+
+### AI API
+
+- `POST /api/docs/upload`
+- `GET /api/docs/files`
+- `GET /api/docs/download`
+- `DELETE /api/docs/file`
+- `GET /api/docs/stats`
+- `GET /api/chat?q=...`
+- `ws://127.0.0.1:8083/ws/chat`
+
+## Quick Start
+
+### 1. Start Business Backend
 
 ```bash
+cd ginbackend
+go mod tidy
+go run ./project
+```
+
+### 2. Start AI Backend
+
+```bash
+cd backend
 mvn spring-boot:run
 ```
 
-或先打包再运行：
+### 3. Start Frontend
 
 ```bash
-mvn clean package
-java -jar target/ai-enterprise-service-0.0.1-SNAPSHOT.jar
-```
-
-### 7.2 启动前端
-node22
-
-在 `vuefront/` 目录执行：
-
-```bash
+cd vuefront
 npm install
 npm run dev
 ```
 
-前端启动后，根据控制台输出访问对应地址即可。
+## Notes
 
----
+- 知识库按企业维度隔离，上传与检索都依赖企业身份。
+- 账户注册后并非默认可登录，需要经过审批流程。
+- 截图文件目前保留原始命名，后续如需进一步整理，可统一改成英文语义化名称。
+- 根目录 `NOTICE.md` 提供了更适合阅读源码的链路说明。
 
-## 8. 接口说明
+## License
 
-### 8.1 上传文件
-- 方法：`POST`
-- 地址：`/api/docs/upload`
-- 参数：`files`，支持多文件上传
-
-### 8.2 查询知识库状态
-- 方法：`GET`
-- 地址：`/api/docs/stats`
-
-### 8.3 HTTP 同步问答
-- 方法：`GET`
-- 地址：`/api/chat?q=你的问题`
-
-### 8.4 WebSocket 流式问答
-- 地址：`ws://127.0.0.1:8083/ws/chat`
-
-前后端约定的消息格式为：
-
-```json
-{
-  "type": "user",
-  "data": "用户问题"
-}
-```
-
-后端返回的消息类型主要有：
-
-- `system`
-- `chunk`
-- `done`
-- `error`
-
----
-
-## 9. 已知设计特点
-
-### 9.1 双向量存储
-项目当前会把 embedding 同时写入：
-
-- Redis 向量库
-- 内存向量库
-
-检索时优先用 Redis，Redis 没命中时回退到内存。
-
-### 9.2 当前是单轮问答
-项目当前没有保存用户历史聊天上下文。
-
-也就是说现在问答只依赖：
-
-- 当前用户问题
-- 当前召回的知识库片段
-
-### 9.3 更偏向阅读与演示型工程
-从当前实现来看，这个项目更适合作为：
-
-- 企业知识库 RAG 示例
-- Netty WebSocket 流式问答示例
-- Spring Boot + Vue 的整合参考
-
----
-
-## 10. 阅读建议
-
-如果你是后来接手这个项目的人，建议先阅读：
-
-- `README.md`：了解项目整体用途与启动方式
-- `NOTICE.md`：了解项目辅助阅读路径和关键链路
-
-如果你想进一步熟悉代码，建议按以下主线阅读：
-
-1. 上传链路：`DocController -> DocumentService -> KnowledgeBaseStoreService`
-2. 问答链路：`ChatController / ChatWebSocketHandler -> RagService`
-3. 流式链路：`NettyWebSocketConfig -> ChatWebSocketHandler -> DeepSeekStreamingService`
-4. 模型与存储配置：`OpenAiConfig`
-
----
-
-## 11. 补充说明
-
-根目录下的 `NOTICE.md` 已经整理成“项目辅助阅读说明”，更适合给后来阅读代码的人快速上手。
-
-如果后续需要更细的说明，可以继续补充：
-
-- 方法级阅读地图
-- 文件 + 行号索引
-- 上传 / 检索 / WebSocket 时序图
-
+This project is licensed under the Apache License 2.0.
+See the [LICENSE](./LICENSE) file for details.

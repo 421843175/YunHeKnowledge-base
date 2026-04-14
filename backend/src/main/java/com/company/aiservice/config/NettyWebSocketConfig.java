@@ -5,12 +5,16 @@ import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
+import io.netty.channel.ChannelPipeline;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.http.FullHttpRequest;
+import io.netty.handler.codec.http.HttpHeaderNames;
 import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
+import io.netty.handler.codec.http.HttpServerExpectContinueHandler;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
 import jakarta.annotation.PostConstruct;
@@ -49,7 +53,6 @@ public class NettyWebSocketConfig {
     }
 
     private void runServer() {
-        // Netty 独立端口启动入口：初始化 boss/worker 线程组，配置 WebSocket pipeline，并绑定 /ws/chat。
         bossGroup = new NioEventLoopGroup(1);
         workerGroup = new NioEventLoopGroup();
         try {
@@ -61,14 +64,24 @@ public class NettyWebSocketConfig {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) {
-                            // TODO:NOTICE pipeline处理器链
-                            //  顺序就是 Netty 消息处理顺序：HTTP 编解码 -> 聚合 -> 大块写出
-                            //  -> WebSocket 协议升级 -> 业务聊天处理。
-                            ch.pipeline().addLast(new HttpServerCodec());
-                            ch.pipeline().addLast(new HttpObjectAggregator(65536));
-                            ch.pipeline().addLast(new ChunkedWriteHandler());
-                            ch.pipeline().addLast(new WebSocketServerProtocolHandler(websocketPath, null, true, 65536));
-                            ch.pipeline().addLast(chatWebSocketHandler);
+                            ChannelPipeline pipeline = ch.pipeline();
+                            pipeline.addLast(new HttpServerCodec());
+                            pipeline.addLast(new HttpObjectAggregator(65536));
+                            pipeline.addLast(new HttpServerExpectContinueHandler());
+                            pipeline.addLast("ws-handshake-log", new io.netty.channel.SimpleChannelInboundHandler<FullHttpRequest>() {
+                                @Override
+                                protected void channelRead0(io.netty.channel.ChannelHandlerContext ctx, FullHttpRequest msg) {
+                                    String upgrade = msg.headers().get(HttpHeaderNames.UPGRADE, "");
+                                    log.info("Netty 收到 HTTP 请求: uri={}, upgrade={}, connection={}",
+                                            msg.uri(),
+                                            upgrade,
+                                            msg.headers().get(HttpHeaderNames.CONNECTION, ""));
+                                    ctx.fireChannelRead(msg.retain());
+                                }
+                            });
+                            pipeline.addLast(new ChunkedWriteHandler());
+                            pipeline.addLast(new WebSocketServerProtocolHandler(websocketPath, null, true, 65536, false, true));
+                            pipeline.addLast(chatWebSocketHandler);
                         }
                     });
 

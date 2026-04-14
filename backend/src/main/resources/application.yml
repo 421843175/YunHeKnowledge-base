@@ -18,11 +18,11 @@ spring:
 
 app:
   deepseek:
-    api-key:
+    api-key: sk-3889c132c5354690884d1e025f968eed
     base-url: https://api.deepseek.com
     chat-model: deepseek-chat
   zhipu:
-    api-key:
+    api-key: f08cb3f6071b446c84de9557c451fb0e.4xdWxY1ADR5uv3Lh
     base-url: https://open.bigmodel.cn/api/paas/v4
     embedding-model: embedding-3
   knowledge:
@@ -45,3 +45,7 @@ netty:
 
 julog:
   logpath: backend/logs/ai-service.log
+
+security:
+  jwt:
+    secret: default_secret_key_at_least_32_bytes_123

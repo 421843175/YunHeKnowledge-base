@@ -1,7 +1,41 @@
 [ {
+  "enterpriseId" : 1,
   "originalFilename" : "公司录.docx",
-  "storedFilename" : "90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx",
-  "storedPath" : "E:\\JU\\jupiterPC\\[backup]木星开发源码或附属\\AI企业服务\\backend\\backend\\data\\uploads\\90f30b26-cac4-4aa1-9bb1-f9268304adb4_公司录.docx",
+  "storedFilename" : "5721edb1-c764-40be-bc3c-d31320f67ef6_公司录.docx",
+  "storedPath" : "E:\\JU\\jupiterPC\\[backup]木星开发源码或附属\\AI企业服务\\backend\\backend\\data\\uploads\\enterprise_1\\5721edb1-c764-40be-bc3c-d31320f67ef6_公司录.docx",
   "segmentsIndexed" : 4,
-  "uploadedAt" : "2026-04-13T18:28:13.035475700"
+  "redisDocumentIds" : [ "06f36b4a-affc-4b86-9632-99fc865c33d9", "77745d20-a03c-47d2-8276-a79a6111a2c2", "d3dcc884-d2c6-41d7-858f-a508f460274f", "2fd3e371-f699-419f-814b-8a1b0f10b3e1" ],
+  "uploadedAt" : "2026-04-14T19:40:40.585671900"
+}, {
+  "enterpriseId" : 1,
+  "originalFilename" : "测试规范.docx",
+  "storedFilename" : "1f88f5f1-3d14-4c0c-a902-167dc0fa5545_测试规范.docx",
+  "storedPath" : "E:\\JU\\jupiterPC\\[backup]木星开发源码或附属\\AI企业服务\\backend\\backend\\data\\uploads\\enterprise_1\\1f88f5f1-3d14-4c0c-a902-167dc0fa5545_测试规范.docx",
+  "segmentsIndexed" : 12,
+  "redisDocumentIds" : [ "1e2a3399-ad57-406c-befc-d53b4f71b764", "76699855-9189-4a14-b307-54c310a4fa48", "caf5cf78-5d9c-4aa4-9adf-651cac27ddc6", "b1813979-5915-4ef1-9097-3d44297a2cd5", "ec7419ca-73bb-4b1b-9972-8027f962d850", "5a9b8ab2-11c9-4a0c-8fe3-03c1773aa634", "e810f609-7b43-4aba-9595-5ff35e215094", "886c1ab6-f182-409c-a158-fcfa8f91b444", "8ccaf940-f7e5-4702-8e3e-577c3e923bc8", "98d58eb8-d482-44c0-9af3-ce78e60b2899", "9936ffea-26e7-464a-8711-14976faa127b", "4704d94c-27eb-451e-868f-e9140dd3e5ad" ],
+  "uploadedAt" : "2026-04-14T20:53:03.898289"
+}, {
+  "enterpriseId" : 1,
+  "originalFilename" : "公司项目规范.pdf",
+  "storedFilename" : "5223414b-8642-4b0a-b67d-9edd92195804_公司项目规范.pdf",
+  "storedPath" : "E:\\JU\\jupiterPC\\[backup]木星开发源码或附属\\AI企业服务\\backend\\backend\\data\\uploads\\enterprise_1\\5223414b-8642-4b0a-b67d-9edd92195804_公司项目规范.pdf",
+  "segmentsIndexed" : 5,
+  "redisDocumentIds" : [ "cc8687af-7e74-49fa-b659-a1fa335202b9", "fe335518-4bb8-4bd6-8e34-ad1f669e1367", "ba75acc6-6af3-4639-8524-4634d23663cb", "95c24c33-0500-420a-8134-ab93212934c0", "cc24380d-c0e6-4827-9cc9-e231c5779cd9" ],
+  "uploadedAt" : "2026-04-14T20:53:05.044819500"
+}, {
+  "enterpriseId" : 1,
+  "originalFilename" : "接口规范.docx",
+  "storedFilename" : "aceb31fc-96d1-406c-8fe6-cf1ac3a100d5_接口规范.docx",
+  "storedPath" : "E:\\JU\\jupiterPC\\[backup]木星开发源码或附属\\AI企业服务\\backend\\backend\\data\\uploads\\enterprise_1\\aceb31fc-96d1-406c-8fe6-cf1ac3a100d5_接口规范.docx",
+  "segmentsIndexed" : 15,
+  "redisDocumentIds" : [ "f378c8ad-b179-4ce1-aabf-e47bf68c5e9e", "ff862afc-e87d-4ec9-96ae-cc457be90d67", "d030a68e-5325-4f6e-8ea6-6b1123947287", "85cff68d-f259-4b8a-a39f-e1fc6769c345", "314ad49d-e2df-4c36-b4e8-33c489096ce9", "c38bcabd-198b-4884-8273-72f0a6b9fc4f", "2474eae4-957d-436a-8f81-03b95924aa79", "35582f12-8443-44a3-b110-f2d04d823871", "eff068e2-6e94-4296-81f9-98754857645e", "e9ae38c9-1b0b-48ea-86e2-8c3fd897142d", "5e21da21-061d-4588-925d-79d84f46189d", "10cf2de3-e71b-4c17-a046-f0005063b9ca", "cbd420cf-9b5c-4754-a8e8-b08a701c55b1", "08874ac9-f7ce-4fc2-a8b6-4ab4259feb00", "3721cf43-ae89-49f7-ae52-c18d4895f5da" ],
+  "uploadedAt" : "2026-04-14T20:53:07.273071100"
+}, {
+  "enterpriseId" : 1,
+  "originalFilename" : "员工管理规范.docx",
+  "storedFilename" : "2856b259-7e2b-401f-9fe9-834357e9ed21_员工管理规范.docx",
+  "storedPath" : "E:\\JU\\jupiterPC\\[backup]木星开发源码或附属\\AI企业服务\\backend\\backend\\data\\uploads\\enterprise_1\\2856b259-7e2b-401f-9fe9-834357e9ed21_员工管理规范.docx",
+  "segmentsIndexed" : 7,
+  "redisDocumentIds" : [ "0dd724ac-9aee-43f0-a316-713fd97ee26b", "cefd12b2-b6d6-490c-bade-1960f2ff858a", "4b47e18f-0063-49b8-9157-2e221b6c2850", "0ffbc2a2-a48f-4a55-873b-34e5c271ae60", "af5cc2ac-c69b-4546-a3e6-bee380fce70f", "95d4e7d1-a734-46c8-965f-6852f9d230c8", "0fbab4bc-5e36-4039-a903-5eaeb05179b2" ],
+  "uploadedAt" : "2026-04-14T20:53:08.583145400"
 } ]
