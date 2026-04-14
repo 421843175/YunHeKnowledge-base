@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI 企业服务平台
 =======
 # AI企业服务
@@ -231,9 +230,7 @@ npm run dev
 
 ## License
 
-<<<<<<< HEAD
+
 This project is licensed under the Apache License 2.0.
 See the [LICENSE](./LICENSE) file for details.
-=======
 
->>>>>>> a212c2b14e0b262d21d19dd60f5c7d7d3111dd5c
