@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # AI 企业服务平台
+=======
+# AI企业服务
+<img width="2530" height="1278" alt="3a3d01f97e74f755784a4364a9c3c5de" src="https://github.com/user-attachments/assets/9a505e1c-507a-41e4-894a-af56a7dbef2f" />
+
+>>>>>>> a212c2b14e0b262d21d19dd60f5c7d7d3111dd5c
 
 一个基于 `Vue 3 + Vite`、`Golang Gin` 和 `Spring Boot` 的企业服务平台示例项目。
 
@@ -225,5 +231,9 @@ npm run dev
 
 ## License
 
+<<<<<<< HEAD
 This project is licensed under the Apache License 2.0.
 See the [LICENSE](./LICENSE) file for details.
+=======
+
+>>>>>>> a212c2b14e0b262d21d19dd60f5c7d7d3111dd5c
