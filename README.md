@@ -1,7 +1,7 @@
 # AI 企业知识库平台
 =======
 # AI企业知识库
-一个基于 `Vue 3 + Vite`、`Golang Gin` 和 `Spring Boot` 的企业服务平台示例项目。
+一个基于 `Vue 3 + Vite`、`Golang Gin` 和 `Spring Boot` 的企业服务平台。
 
 项目将传统业务系统和 AI 知识库能力拆成两套后端，覆盖企业注册、账户审批、多文件上传、企业知识库、RAG 问答以及 WebSocket 流式响应等功能。
 
